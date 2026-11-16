@@ -1,0 +1,4 @@
+numpy>=1.24
+open_clip_torch>=2.24
+PyYAML>=6.0
+torch>=2.2

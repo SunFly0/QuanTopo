@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantopo"
+version = "0.1.0"
+description = "Topology-directed discrete planning for text-to-motion generation"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24",
+  "open_clip_torch>=2.24",
+  "PyYAML>=6.0",
+  "torch>=2.2",
+]
+
+[project.scripts]
+quantopo-fit-statistics = "quantopo.cli.statistics:main"
+quantopo-precompute-topology = "quantopo.cli.preprocess:main"
+quantopo-train = "quantopo.cli.train:main"
+quantopo-generate = "quantopo.cli.generate:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

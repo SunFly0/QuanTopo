@@ -1,0 +1,8 @@
+name: kitml
+root: data/kitml
+joint_count: 21
+ric_width: 251
+frame_rate: 12.5
+mean_path: Mean.npy
+std_path: Std.npy
+offsets_path: canonical_offsets.npy

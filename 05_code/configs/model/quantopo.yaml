@@ -1,0 +1,100 @@
+topology:
+  sample_count: 32
+  knn_k: 6
+  time_weight: 0.15
+  point_slots: 16
+  lifetime_threshold: 0.00001
+  grid_size: 8
+  bandwidth: 0.12
+  descriptor_dim: 128
+
+representation:
+  codebook_size: 512
+  embedding_dim: 256
+  plan_stride: 4
+  plan_width: 256
+  realization_dim: 128
+  continuous_width: 256
+  dropout: 0.1
+  group_norm_groups: 32
+  codebook_decay: 0.99
+  codebook_smoothing: 0.00001
+  dead_code_start: 100
+  dead_code_interval: 100
+  dead_code_threshold: 1.0
+
+decoder:
+  part_count: 6
+  physical_width: 384
+  part_bond_dim: 8
+  joint_bond_dim: 16
+  identity_dim: 256
+  frame_width: 384
+  temporal_dilations: [1, 2, 4]
+
+text:
+  backbone: ViT-B-32
+  width: 512
+  part_queries: 6
+  attention_heads: 8
+  graph_rounds: 2
+  point_slots: 16
+  head_hidden: 512
+
+planner:
+  layers: 6
+  width: 256
+  heads: 8
+  ffn: 1024
+  dropout: 0.1
+  max_positions: 64
+  modulation_hidden: 256
+  modulation_alpha: 0.1
+  modulation_clip: 5.0
+
+flow:
+  input_dim: 128
+  width: 384
+  blocks: 8
+  heads: 6
+  ffn: 1536
+  dropout: 0.1
+  condition_dropout: 0.1
+
+sampling:
+  ar_temperature: 1.0
+  top_k: null
+  top_p: null
+  euler_steps: 20
+  guidance_scale: 1.0
+
+training:
+  stage_a:
+    steps: 300000
+    batch_size: 256
+  stage_b1:
+    steps: 200000
+    batch_size: 64
+  stage_b2:
+    steps: 200000
+    batch_size: 64
+  optimizer:
+    learning_rate: 0.0002
+    beta1: 0.9
+    beta2: 0.999
+    epsilon: 0.00000001
+    weight_decay: 0.01
+    warmup_steps: 2000
+    decay_fractions: [0.5, 0.75]
+    decay_factor: 0.2
+    gradient_clip: 1.0
+  validate_every: 5000
+  precision: bf16
+  rollin_clean_steps: 50000
+  rollin_proposal_probability: 0.2
+  rollin_acceptance_factor: 1.25
+  seeds: [1, 2, 3]
+
+runtime:
+  device: cuda
+

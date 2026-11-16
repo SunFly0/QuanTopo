@@ -1,0 +1,8 @@
+name: humanml3d
+root: data/humanml3d
+joint_count: 22
+ric_width: 263
+frame_rate: 20.0
+mean_path: Mean.npy
+std_path: Std.npy
+offsets_path: canonical_offsets.npy
