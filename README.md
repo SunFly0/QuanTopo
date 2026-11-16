@@ -1,6 +1,8 @@
 # QuanTopo materials
 
-The complete material distribution consists of four independently extractable ZIP archives:
+[Download all materials as one ZIP](https://anonymous.4open.science/api/repo/QuanTopo-1821/zip)
+
+The ZIP download contains the following four material groups. The original complete archive names are listed for reference:
 
 | Archive | Contents |
 |---|---|
