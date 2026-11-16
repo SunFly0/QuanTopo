@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "method": "MoMask",
+  "records": 4640,
+  "seeds": [
+    41000
+  ],
+  "outputs": 4640,
+  "time_steps": 18,
+  "cond_scale": 4.0,
+  "records_sha256": "672da804c0b46111542afaeca4729fc9ce19313efd05a51710418f2d9f7736d9",
+  "checkpoint_sha256": {
+    "t2m/rvq_nq6_dc512_nc512_noshare_qdp0.2/model/net_best_fid.tar": "fd42f54df6d4ecf1226959b5a7de3f849a04e76bfb9d8dde0a588f98de180088",
+    "t2m/t2m_nlayer8_nhead6_ld384_ff1024_cdp0.1_rvq6ns/model/latest.tar": "80776600ae3398ca9cebe250b42fe3cd5c25d0b950fc8f57118673bec1ec860e",
+    "t2m/tres_nlayer8_ld384_ff1024_rvq6ns_cdp0.2_sw/model/net_best_fid.tar": "2541adf3b1028b27b95cbe2a6e7866b70dc171f2d08f96d4fb741c49ac010f8d"
+  },
+  "scope": "corrected_baseline_unified_reevaluation"
+}

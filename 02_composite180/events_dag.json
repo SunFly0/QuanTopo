@@ -1,0 +1,6134 @@
+{
+  "schema_version": 1,
+  "protocol": {
+    "frame_indexing": "zero_based_inclusive",
+    "edge_satisfied": "both events present and predecessor offset_frame <= successor onset_frame",
+    "presence_vote": "at least two of three marks True",
+    "edge_vote": "at least two of three raters satisfy the individual edge",
+    "seq": "mean per-caption fraction of satisfied required edges",
+    "coverage": "fraction of captions with all required events covered by majority vote",
+    "order_given_coverage": "mean per-caption satisfied-edge fraction restricted to fully covered captions",
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 2026,
+    "bootstrap_unit": "original parent motion, grouping mirrors and time segments",
+    "bootstrap_group_order": [
+      "Group_001",
+      "Group_002",
+      "Group_003",
+      "Group_004",
+      "Group_005",
+      "Group_006",
+      "Group_007",
+      "Group_008",
+      "Group_009",
+      "Group_010",
+      "Group_011",
+      "Group_012",
+      "Group_013",
+      "Group_014",
+      "Group_015",
+      "Group_016",
+      "Group_017",
+      "Group_018",
+      "Group_019",
+      "Group_020",
+      "Group_021",
+      "Group_022",
+      "Group_023",
+      "Group_024",
+      "Group_025",
+      "Group_026",
+      "Group_027",
+      "Group_028",
+      "Group_029",
+      "Group_030",
+      "Group_031",
+      "Group_032",
+      "Group_033",
+      "Group_034",
+      "Group_035",
+      "Group_036",
+      "Group_037",
+      "Group_038",
+      "Group_039",
+      "Group_040",
+      "Group_041",
+      "Group_042",
+      "Group_043",
+      "Group_044",
+      "Group_045",
+      "Group_046",
+      "Group_047",
+      "Group_048",
+      "Group_049",
+      "Group_050",
+      "Group_051",
+      "Group_052",
+      "Group_053",
+      "Group_054",
+      "Group_055",
+      "Group_056",
+      "Group_057",
+      "Group_058",
+      "Group_059",
+      "Group_060",
+      "Group_061",
+      "Group_062",
+      "Group_063",
+      "Group_064",
+      "Group_065",
+      "Group_066",
+      "Group_067",
+      "Group_068",
+      "Group_069",
+      "Group_070",
+      "Group_071",
+      "Group_072",
+      "Group_073",
+      "Group_074",
+      "Group_075",
+      "Group_076",
+      "Group_077",
+      "Group_078",
+      "Group_079",
+      "Group_080",
+      "Group_081",
+      "Group_082",
+      "Group_083",
+      "Group_084",
+      "Group_085",
+      "Group_086"
+    ],
+    "annotation_frame_limit": "The corresponding generation_manifest output.frames value; events_dag frames retain reference/requested lengths."
+  },
+  "records": [
+    {
+      "caption": "a person starts slowly walking forward and then jogs some before coming to a stop.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walks forward slowly"
+        },
+        {
+          "event_id": "e2",
+          "description": "transitions into jogging"
+        },
+        {
+          "event_id": "e3",
+          "description": "stops"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 148,
+      "fps": 20,
+      "caption_id": "Caption_001",
+      "source_group": "Group_001"
+    },
+    {
+      "caption": "a person steps backward, jumps up, runs forward, then runs backward.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "steps backward"
+        },
+        {
+          "event_id": "e2",
+          "description": "jumps upward"
+        },
+        {
+          "event_id": "e3",
+          "description": "runs forward"
+        },
+        {
+          "event_id": "e4",
+          "description": "runs backward"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 128,
+      "fps": 20,
+      "caption_id": "Caption_002",
+      "source_group": "Group_002"
+    },
+    {
+      "caption": "person takes a step back and then jumps up and walks forwards",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "take a step backward"
+        },
+        {
+          "event_id": "e2",
+          "description": "jump upward"
+        },
+        {
+          "event_id": "e3",
+          "description": "walk forward"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 128,
+      "fps": 20,
+      "caption_id": "Caption_003",
+      "source_group": "Group_002"
+    },
+    {
+      "caption": "a person turns to the left, squats while bringing both hands together then stands up straight again.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "turns left"
+        },
+        {
+          "event_id": "e2",
+          "description": "squats while bringing hands together"
+        },
+        {
+          "event_id": "e3",
+          "description": "stands upright"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 192,
+      "fps": 20,
+      "caption_id": "Caption_004",
+      "source_group": "Group_003"
+    },
+    {
+      "caption": "a person takes one step forward, jumps into the air giving their right leg out; after landing they take another step forward, make a swift counter clockwise turn before taking a last step forward stopping to pose with the right arm extended perpendicular to the right of the body and the left hand held near the front of the lower torso.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "Step forward."
+        },
+        {
+          "event_id": "e2",
+          "description": "Jump with the right leg extended."
+        },
+        {
+          "event_id": "e3",
+          "description": "Land after the jump."
+        },
+        {
+          "event_id": "e4",
+          "description": "Take another step forward."
+        },
+        {
+          "event_id": "e5",
+          "description": "Turn counterclockwise."
+        },
+        {
+          "event_id": "e6",
+          "description": "Take the final step forward."
+        },
+        {
+          "event_id": "e7",
+          "description": "Stop in the described arm pose."
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ],
+        [
+          "e5",
+          "e6"
+        ],
+        [
+          "e6",
+          "e7"
+        ]
+      ],
+      "frames": 128,
+      "fps": 20,
+      "caption_id": "Caption_005",
+      "source_group": "Group_004"
+    },
+    {
+      "caption": "figure gets down on hands and knees facing left and crawls 3 steps before turning around and crawling to the  right for  4 steps, backs up slightly and stands back up facing forward.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "get down onto hands and knees facing left"
+        },
+        {
+          "event_id": "e2",
+          "description": "crawl three steps"
+        },
+        {
+          "event_id": "e3",
+          "description": "turn around"
+        },
+        {
+          "event_id": "e4",
+          "description": "crawl four steps toward the right"
+        },
+        {
+          "event_id": "e5",
+          "description": "back up slightly and stand facing forward"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_006",
+      "source_group": "Group_005"
+    },
+    {
+      "caption": "a man walks forward, picks something up with his right arm, and holds it as he steps back to his starting position, turns around, walks back, and sets it down before starting to turn.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walk forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "pick an object up with the right arm"
+        },
+        {
+          "event_id": "e3",
+          "description": "step backward holding it toward the starting position"
+        },
+        {
+          "event_id": "e4",
+          "description": "turn around"
+        },
+        {
+          "event_id": "e5",
+          "description": "walk back"
+        },
+        {
+          "event_id": "e6",
+          "description": "set the object down"
+        },
+        {
+          "event_id": "e7",
+          "description": "begin to turn again"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ],
+        [
+          "e5",
+          "e6"
+        ],
+        [
+          "e6",
+          "e7"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_007",
+      "source_group": "Group_006"
+    },
+    {
+      "caption": "a person jumps very high and steps forward making little kicks, then stands with right arm in the air.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "jumps high"
+        },
+        {
+          "event_id": "e2",
+          "description": "steps forward making small kicks"
+        },
+        {
+          "event_id": "e3",
+          "description": "stands with the right arm raised"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 112,
+      "fps": 20,
+      "caption_id": "Caption_008",
+      "source_group": "Group_007"
+    },
+    {
+      "caption": "a person jumps very high and steps forward making little kicks, then stands with left arm in the air.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "jumps high"
+        },
+        {
+          "event_id": "e2",
+          "description": "steps forward making small kicks"
+        },
+        {
+          "event_id": "e3",
+          "description": "stands with the left arm raised"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 112,
+      "fps": 20,
+      "caption_id": "Caption_009",
+      "source_group": "Group_007"
+    },
+    {
+      "caption": "a man jumps fwd then steps foward and to the left then right left and right again and snaps his right arm out",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a man jumps fwd"
+        },
+        {
+          "event_id": "e2",
+          "description": "steps foward and to the left"
+        },
+        {
+          "event_id": "e3",
+          "description": "right left and right again and snaps his right arm out"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 112,
+      "fps": 20,
+      "caption_id": "Caption_010",
+      "source_group": "Group_007"
+    },
+    {
+      "caption": "a person stands and moves their arms in a circular motion in front of their body, the arms then bend up towards the head before repeating the first motion again.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "moves arms in circles in front of the body"
+        },
+        {
+          "event_id": "e2",
+          "description": "bends arms toward the head"
+        },
+        {
+          "event_id": "e3",
+          "description": "repeats the arm circles"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_011",
+      "source_group": "Group_008"
+    },
+    {
+      "caption": "character moves arms in a no movement then points twice with left hand.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "make a no gesture with the arms"
+        },
+        {
+          "event_id": "e2",
+          "description": "point with the left hand once"
+        },
+        {
+          "event_id": "e3",
+          "description": "point with the left hand a second time"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 176,
+      "fps": 20,
+      "caption_id": "Caption_012",
+      "source_group": "Group_009"
+    },
+    {
+      "caption": "a person crosses his arms in an x-shape out in front of him and then quickly swings them to the side, brushes off is left leg with his left hand, and then raises his left hand as if to wave.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "cross the arms in front in an X-shape"
+        },
+        {
+          "event_id": "e2",
+          "description": "swing the arms toward the sides"
+        },
+        {
+          "event_id": "e3",
+          "description": "brush the left leg using the left hand"
+        },
+        {
+          "event_id": "e4",
+          "description": "raise the left hand as if waving"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_013",
+      "source_group": "Group_009"
+    },
+    {
+      "caption": "a person crosses his arms in an x-shape out in front of him and then quickly swings them to the side, brushes off is right leg with his right hand, and then raises his right hand as if to wave.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "cross the arms in front in an X-shape"
+        },
+        {
+          "event_id": "e2",
+          "description": "swing the arms toward the sides"
+        },
+        {
+          "event_id": "e3",
+          "description": "brush the right leg using the right hand"
+        },
+        {
+          "event_id": "e4",
+          "description": "raise the right hand as if waving"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_014",
+      "source_group": "Group_009"
+    },
+    {
+      "caption": "character moves arms in a no movement then points twice with right hand.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "make a no gesture with the arms"
+        },
+        {
+          "event_id": "e2",
+          "description": "point with the right hand once"
+        },
+        {
+          "event_id": "e3",
+          "description": "point with the right hand a second time"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 176,
+      "fps": 20,
+      "caption_id": "Caption_015",
+      "source_group": "Group_009"
+    },
+    {
+      "caption": "a person broadly gestures \"no\" or \"stop\" with both arms, and brushes off their left leg and shoulder before tapping the air.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person broadly gestures \"no\" or \"stop\" with both arms, and brushes off their left leg and shoulder"
+        },
+        {
+          "event_id": "e2",
+          "description": "tapping the air"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_016",
+      "source_group": "Group_009"
+    },
+    {
+      "caption": "a person broadly gestures \"no\" or \"stop\" with both arms, and brushes off their right leg and shoulder before tapping the air.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person broadly gestures \"no\" or \"stop\" with both arms, and brushes off their right leg and shoulder"
+        },
+        {
+          "event_id": "e2",
+          "description": "tapping the air"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_017",
+      "source_group": "Group_009"
+    },
+    {
+      "caption": "someone raises their left arm and then puts it back down",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "someone raises their left arm"
+        },
+        {
+          "event_id": "e2",
+          "description": "puts it back down"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 56,
+      "fps": 20,
+      "caption_id": "Caption_018",
+      "source_group": "Group_010"
+    },
+    {
+      "caption": "a person takes a step to the left then swings their right arm",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person takes a step to the left"
+        },
+        {
+          "event_id": "e2",
+          "description": "swings their right arm"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 28,
+      "fps": 20,
+      "caption_id": "Caption_019",
+      "source_group": "Group_011"
+    },
+    {
+      "caption": "a person walks forward and touches the floor, then walks back and touches the floor and stops.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walks forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "touches the floor"
+        },
+        {
+          "event_id": "e3",
+          "description": "walks back"
+        },
+        {
+          "event_id": "e4",
+          "description": "touches the floor and stops"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 188,
+      "fps": 20,
+      "caption_id": "Caption_020",
+      "source_group": "Group_012"
+    },
+    {
+      "caption": "a person walks forward, picks something up, then walks back and puts it down.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person walks forward, picks something up"
+        },
+        {
+          "event_id": "e2",
+          "description": "walks back and puts it down"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 188,
+      "fps": 20,
+      "caption_id": "Caption_021",
+      "source_group": "Group_012"
+    },
+    {
+      "caption": "a man puts his hands out fully extended and then brings them back toward his body.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a man puts his hands out fully extended"
+        },
+        {
+          "event_id": "e2",
+          "description": "brings them back toward his body"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_022",
+      "source_group": "Group_013"
+    },
+    {
+      "caption": "a man turns towards his right, steps back with his right foot to look over his right shoulder, then returns his right foot pauses, steps backwards with his left foot and looks over his left shoulder.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "turns right and steps back with the right foot"
+        },
+        {
+          "event_id": "e2",
+          "description": "returns the right foot and pauses"
+        },
+        {
+          "event_id": "e3",
+          "description": "steps back with the left foot and looks left"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_023",
+      "source_group": "Group_014"
+    },
+    {
+      "caption": "a person who is standing with his hands by his sides steps forward with his left foot, kicks out with his right foot and then steps back to his original position.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "steps forward with the left foot"
+        },
+        {
+          "event_id": "e2",
+          "description": "kicks with the right foot"
+        },
+        {
+          "event_id": "e3",
+          "description": "steps back to the original position"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 92,
+      "fps": 20,
+      "caption_id": "Caption_024",
+      "source_group": "Group_015"
+    },
+    {
+      "caption": "a half blue & red  body stands in the center as he then runs left,  turns then runs right . he runs left once more & stops bavk where he started in the middle.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "run toward the left"
+        },
+        {
+          "event_id": "e2",
+          "description": "turn and run toward the right"
+        },
+        {
+          "event_id": "e3",
+          "description": "run toward the left again"
+        },
+        {
+          "event_id": "e4",
+          "description": "stop near the starting position"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 100,
+      "fps": 20,
+      "caption_id": "Caption_025",
+      "source_group": "Group_016"
+    },
+    {
+      "caption": "a person takes a couple steps forward, pauses, turns and jogs to the left, then jogs to the right, then jogs back to where he started",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "take a couple of steps forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "pause"
+        },
+        {
+          "event_id": "e3",
+          "description": "turn and jog toward the left"
+        },
+        {
+          "event_id": "e4",
+          "description": "jog toward the right"
+        },
+        {
+          "event_id": "e5",
+          "description": "jog back toward the starting position"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_026",
+      "source_group": "Group_016"
+    },
+    {
+      "caption": "a person takes a couple steps forward, pauses, turns and jogs to the right, then jogs to the left, then jogs back to where he started",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "take a couple of steps forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "pause"
+        },
+        {
+          "event_id": "e3",
+          "description": "turn and jog toward the right"
+        },
+        {
+          "event_id": "e4",
+          "description": "jog toward the left"
+        },
+        {
+          "event_id": "e5",
+          "description": "jog back toward the starting position"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_027",
+      "source_group": "Group_016"
+    },
+    {
+      "caption": "a half blue & red  body stands in the center as he then runs right,  turns then runs left . he runs right once more & stops bavk where he started in the middle.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "run toward the right"
+        },
+        {
+          "event_id": "e2",
+          "description": "turn and run toward the left"
+        },
+        {
+          "event_id": "e3",
+          "description": "run toward the right again"
+        },
+        {
+          "event_id": "e4",
+          "description": "stop near the starting position"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 100,
+      "fps": 20,
+      "caption_id": "Caption_028",
+      "source_group": "Group_016"
+    },
+    {
+      "caption": "a person bends at the knees with their arms back and then jumps up and slightly forward.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person bends at the knees with their arms back"
+        },
+        {
+          "event_id": "e2",
+          "description": "jumps up and slightly forward"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 112,
+      "fps": 20,
+      "caption_id": "Caption_029",
+      "source_group": "Group_017"
+    },
+    {
+      "caption": "a person grapevines to the left, turns, and then steps back to their starting position.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "grapevines to the left"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns"
+        },
+        {
+          "event_id": "e3",
+          "description": "steps back to the starting position"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 60,
+      "fps": 20,
+      "caption_id": "Caption_030",
+      "source_group": "Group_018"
+    },
+    {
+      "caption": "a person grapevines to the right, turns, and then steps back to their starting position.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "grapevines to the right"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns"
+        },
+        {
+          "event_id": "e3",
+          "description": "steps back to the starting position"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 60,
+      "fps": 20,
+      "caption_id": "Caption_031",
+      "source_group": "Group_018"
+    },
+    {
+      "caption": "a person stretches their right shoulder , bringing it back , rotating it and then switches to their left shoulder , bringing it back twice , rotating it twice . they then move to warming up or stretching out their elbow joint by bringing their hand to their shoulder and then extend it fully and turn their inner arm outwards .",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "Stretch the right shoulder by bringing it backward."
+        },
+        {
+          "event_id": "e2",
+          "description": "Rotate the right shoulder."
+        },
+        {
+          "event_id": "e3",
+          "description": "Switch to the left shoulder and bring it backward twice."
+        },
+        {
+          "event_id": "e4",
+          "description": "Rotate the left shoulder twice."
+        },
+        {
+          "event_id": "e5",
+          "description": "Flex the elbow by bringing the hand to the shoulder."
+        },
+        {
+          "event_id": "e6",
+          "description": "Extend the elbow fully."
+        },
+        {
+          "event_id": "e7",
+          "description": "Turn the inner arm outward."
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ],
+        [
+          "e5",
+          "e6"
+        ],
+        [
+          "e6",
+          "e7"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_032",
+      "source_group": "Group_019"
+    },
+    {
+      "caption": "a person runs forward then abruptly turns to the left and continues running",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "runs forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns abruptly left"
+        },
+        {
+          "event_id": "e3",
+          "description": "continues running"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 60,
+      "fps": 20,
+      "caption_id": "Caption_033",
+      "source_group": "Group_020"
+    },
+    {
+      "caption": "a person runs forward then abruptly turns to the right and continues running",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "runs forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns abruptly right"
+        },
+        {
+          "event_id": "e3",
+          "description": "continues running"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 60,
+      "fps": 20,
+      "caption_id": "Caption_034",
+      "source_group": "Group_020"
+    },
+    {
+      "caption": "a person runs forward and then to the right.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person runs forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "to the right"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 60,
+      "fps": 20,
+      "caption_id": "Caption_035",
+      "source_group": "Group_020"
+    },
+    {
+      "caption": "a person who is standing with his hands by his sides, turns and steps backwards, jogs forward six steps, turns 180 degrees and jogs four steps, then stops and resumes his original position.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "turns and steps backward"
+        },
+        {
+          "event_id": "e2",
+          "description": "jogs forward six steps"
+        },
+        {
+          "event_id": "e3",
+          "description": "turns 180 degrees"
+        },
+        {
+          "event_id": "e4",
+          "description": "jogs four steps"
+        },
+        {
+          "event_id": "e5",
+          "description": "stops and returns to the initial ground position and upright stance"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ]
+      ],
+      "frames": 148,
+      "fps": 20,
+      "caption_id": "Caption_036",
+      "source_group": "Group_021"
+    },
+    {
+      "caption": "a person takes a few steps, squats twice, then turns and and walks back,",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "takes a few steps"
+        },
+        {
+          "event_id": "e2",
+          "description": "squats twice"
+        },
+        {
+          "event_id": "e3",
+          "description": "turns"
+        },
+        {
+          "event_id": "e4",
+          "description": "walks back"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 128,
+      "fps": 20,
+      "caption_id": "Caption_037",
+      "source_group": "Group_022"
+    },
+    {
+      "caption": "person is walking forwards quite fast, then squats down to pick something up to then turn around and walk fast again. appears to be in a rush and moving an item",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "person is walking forwards quite fast"
+        },
+        {
+          "event_id": "e2",
+          "description": "squats down to pick something up to"
+        },
+        {
+          "event_id": "e3",
+          "description": "turn around and walk fast again. appears to be in a rush and moving an item"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 128,
+      "fps": 20,
+      "caption_id": "Caption_038",
+      "source_group": "Group_022"
+    },
+    {
+      "caption": "a person walks then stops briefly, he does a 180 degree turn and walks in that direction.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walks"
+        },
+        {
+          "event_id": "e2",
+          "description": "stops briefly"
+        },
+        {
+          "event_id": "e3",
+          "description": "turns 180 degrees"
+        },
+        {
+          "event_id": "e4",
+          "description": "walks in the new direction"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_039",
+      "source_group": "Group_023"
+    },
+    {
+      "caption": "a man walks diagonally to his far right before turning backwards, then walks straight backwards before turning to his right.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walks diagonally forward-right"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns to face backward"
+        },
+        {
+          "event_id": "e3",
+          "description": "walks backward"
+        },
+        {
+          "event_id": "e4",
+          "description": "turns right"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_040",
+      "source_group": "Group_023"
+    },
+    {
+      "caption": "the person starts by sitting and dials with their right hand then holds the phone with their left and starts by turning in their chair, before standing up walking to the left around the back of the chair then sitting down again.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "sit and dial with the right hand"
+        },
+        {
+          "event_id": "e2",
+          "description": "hold the phone with the left hand and turn in the chair"
+        },
+        {
+          "event_id": "e3",
+          "description": "stand and walk left around the back of the chair"
+        },
+        {
+          "event_id": "e4",
+          "description": "sit down again"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_041",
+      "source_group": "Group_024"
+    },
+    {
+      "caption": "a person is sitting with their feet on the floor, the rotate to the left before standing up, as they stand up the take a couple steps backwards, then proceed to go forward before bending over.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "sit with feet on the floor"
+        },
+        {
+          "event_id": "e2",
+          "description": "rotate left"
+        },
+        {
+          "event_id": "e3",
+          "description": "stand and take the described backward steps"
+        },
+        {
+          "event_id": "e4",
+          "description": "walk forward"
+        },
+        {
+          "event_id": "e5",
+          "description": "bend over"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_042",
+      "source_group": "Group_024"
+    },
+    {
+      "caption": "a person holds their hands in front of them, turns clockwise briefly, and then kicks towards the left hand side with their right leg.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "hold the hands in front"
+        },
+        {
+          "event_id": "e2",
+          "description": "turn clockwise briefly"
+        },
+        {
+          "event_id": "e3",
+          "description": "kick toward the left using the right leg"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 40,
+      "fps": 20,
+      "caption_id": "Caption_043",
+      "source_group": "Group_025"
+    },
+    {
+      "caption": "a person rotate their body to the right then kick to the right and rotate to the left and kick to the left.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "rotate the body toward the right"
+        },
+        {
+          "event_id": "e2",
+          "description": "kick toward the right"
+        },
+        {
+          "event_id": "e3",
+          "description": "rotate toward the left"
+        },
+        {
+          "event_id": "e4",
+          "description": "kick toward the left"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_044",
+      "source_group": "Group_025"
+    },
+    {
+      "caption": "a person rotate their body to the left then kick to the left and rotate to the right and kick to the right.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "rotate the body toward the left"
+        },
+        {
+          "event_id": "e2",
+          "description": "kick toward the left"
+        },
+        {
+          "event_id": "e3",
+          "description": "rotate toward the right"
+        },
+        {
+          "event_id": "e4",
+          "description": "kick toward the right"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_045",
+      "source_group": "Group_025"
+    },
+    {
+      "caption": "a person holds their hands in front of them, turns counterclockwise briefly, and then kicks towards the right hand side with their left leg.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "hold the hands in front"
+        },
+        {
+          "event_id": "e2",
+          "description": "turn counterclockwise briefly"
+        },
+        {
+          "event_id": "e3",
+          "description": "kick toward the right using the left leg"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 40,
+      "fps": 20,
+      "caption_id": "Caption_046",
+      "source_group": "Group_025"
+    },
+    {
+      "caption": "a person kicks with their right leg twice, and then once with their left.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person kicks with their right leg twice"
+        },
+        {
+          "event_id": "e2",
+          "description": "once with their left"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_047",
+      "source_group": "Group_025"
+    },
+    {
+      "caption": "a person kicks with their left leg twice, and then once with their right.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person kicks with their left leg twice"
+        },
+        {
+          "event_id": "e2",
+          "description": "once with their right"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_048",
+      "source_group": "Group_025"
+    },
+    {
+      "caption": "figure stands, turns left and walks, stops, turns right and walks, turns left and stops halfway, turns forward, and then stands.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "Stand at the beginning."
+        },
+        {
+          "event_id": "e2",
+          "description": "Turn left and walk."
+        },
+        {
+          "event_id": "e3",
+          "description": "Stop walking."
+        },
+        {
+          "event_id": "e4",
+          "description": "Turn right and walk."
+        },
+        {
+          "event_id": "e5",
+          "description": "Turn left and stop halfway."
+        },
+        {
+          "event_id": "e6",
+          "description": "Turn to face forward."
+        },
+        {
+          "event_id": "e7",
+          "description": "Stand at the end."
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ],
+        [
+          "e5",
+          "e6"
+        ],
+        [
+          "e6",
+          "e7"
+        ]
+      ],
+      "frames": 188,
+      "fps": 20,
+      "caption_id": "Caption_049",
+      "source_group": "Group_026"
+    },
+    {
+      "caption": "a person puts his arms up and extends them outwards then puts them back down again",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person puts his arms up and extends them outwards"
+        },
+        {
+          "event_id": "e2",
+          "description": "puts them back down again"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 88,
+      "fps": 20,
+      "caption_id": "Caption_050",
+      "source_group": "Group_027"
+    },
+    {
+      "caption": "a person walks forward and takes a couple steps then bends down and picks something up, and then turns around and walks back. then bends down and looks like it sets something down.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "Walk forward."
+        },
+        {
+          "event_id": "e2",
+          "description": "Bend down."
+        },
+        {
+          "event_id": "e3",
+          "description": "Pick up an object."
+        },
+        {
+          "event_id": "e4",
+          "description": "Turn around."
+        },
+        {
+          "event_id": "e5",
+          "description": "Walk back."
+        },
+        {
+          "event_id": "e6",
+          "description": "Bend down again."
+        },
+        {
+          "event_id": "e7",
+          "description": "Set the object down."
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ],
+        [
+          "e5",
+          "e6"
+        ],
+        [
+          "e6",
+          "e7"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_051",
+      "source_group": "Group_028"
+    },
+    {
+      "caption": "a person walks forward and then gets on all fours, crawls forward and then stands up again.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walks forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "gets down onto hands and knees"
+        },
+        {
+          "event_id": "e3",
+          "description": "crawls forward"
+        },
+        {
+          "event_id": "e4",
+          "description": "stands up"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_052",
+      "source_group": "Group_029"
+    },
+    {
+      "caption": "a person walks a few steps, turns around and begins crawling on the floor in the other direction, then stands and walks the other way.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person walks a few steps, turns around and begins crawling on the floor in the other direction"
+        },
+        {
+          "event_id": "e2",
+          "description": "stands and walks the other way"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_053",
+      "source_group": "Group_029"
+    },
+    {
+      "caption": "a person is walking forward and then swiftly turns left and starts walking sideways.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walks forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns left"
+        },
+        {
+          "event_id": "e3",
+          "description": "walks sideways"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 48,
+      "fps": 20,
+      "caption_id": "Caption_054",
+      "source_group": "Group_030"
+    },
+    {
+      "caption": "a person is walking forward and then swiftly turns right and starts walking sideways.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walks forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns right"
+        },
+        {
+          "event_id": "e3",
+          "description": "walks sideways"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 48,
+      "fps": 20,
+      "caption_id": "Caption_055",
+      "source_group": "Group_030"
+    },
+    {
+      "caption": "a person walking forward steps up onto something and then steps down off the other side, then again up onto something and down the other side, then turns right and walks forward, then turns right again and steps up onto something.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "step up onto the first object"
+        },
+        {
+          "event_id": "e2",
+          "description": "step down off its other side"
+        },
+        {
+          "event_id": "e3",
+          "description": "step up onto the next object"
+        },
+        {
+          "event_id": "e4",
+          "description": "step down off its other side"
+        },
+        {
+          "event_id": "e5",
+          "description": "turn right and walk forward"
+        },
+        {
+          "event_id": "e6",
+          "description": "turn right again"
+        },
+        {
+          "event_id": "e7",
+          "description": "step up onto an object"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ],
+        [
+          "e5",
+          "e6"
+        ],
+        [
+          "e6",
+          "e7"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_056",
+      "source_group": "Group_031"
+    },
+    {
+      "caption": "a person raises his right arm in front of himself, swings it over to the side, then lowers it.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "raises the right arm forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "swings the right arm to the side"
+        },
+        {
+          "event_id": "e3",
+          "description": "lowers the right arm"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 64,
+      "fps": 20,
+      "caption_id": "Caption_057",
+      "source_group": "Group_032"
+    },
+    {
+      "caption": "a person raises his left arm in front of himself, swings it over to the side, then lowers it.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "raises the left arm forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "swings the left arm to the side"
+        },
+        {
+          "event_id": "e3",
+          "description": "lowers the left arm"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 64,
+      "fps": 20,
+      "caption_id": "Caption_058",
+      "source_group": "Group_032"
+    },
+    {
+      "caption": "a person moves his right arm straight up and then to the right while standing still.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "raise the right arm straight upward"
+        },
+        {
+          "event_id": "e2",
+          "description": "move the raised arm toward the right"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 60,
+      "fps": 20,
+      "caption_id": "Caption_059",
+      "source_group": "Group_032"
+    },
+    {
+      "caption": "a person moves his left arm straight up and then to the left while standing still.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "raise the left arm straight upward"
+        },
+        {
+          "event_id": "e2",
+          "description": "move the raised arm toward the left"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 60,
+      "fps": 20,
+      "caption_id": "Caption_060",
+      "source_group": "Group_032"
+    },
+    {
+      "caption": "a person touches knees to opposing elbows 5 times, stops and then does 1 squat.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "performs five knee-to-opposite-elbow touches"
+        },
+        {
+          "event_id": "e2",
+          "description": "stops the knee-elbow repetitions"
+        },
+        {
+          "event_id": "e3",
+          "description": "performs one squat"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_061",
+      "source_group": "Group_033"
+    },
+    {
+      "caption": "a man lifts each knee to his elbow multiple times and then does a squat.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a man lifts each knee to his elbow multiple times"
+        },
+        {
+          "event_id": "e2",
+          "description": "does a squat"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_062",
+      "source_group": "Group_033"
+    },
+    {
+      "caption": "a person alternates between bringing up their left and right knees up to their chest and then finishes with a single squat.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person alternates between bringing up their left and right knees up to their chest"
+        },
+        {
+          "event_id": "e2",
+          "description": "finishes with a single squat"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_063",
+      "source_group": "Group_033"
+    },
+    {
+      "caption": "a person alternates between bringing up their right and left knees up to their chest and then finishes with a single squat.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person alternates between bringing up their right and left knees up to their chest"
+        },
+        {
+          "event_id": "e2",
+          "description": "finishes with a single squat"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_064",
+      "source_group": "Group_033"
+    },
+    {
+      "caption": "a man lifts his hands up in front his face and turns to his right, and then his left, and puts his hands back down.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "raises hands in front of the face"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns right"
+        },
+        {
+          "event_id": "e3",
+          "description": "turns left"
+        },
+        {
+          "event_id": "e4",
+          "description": "lowers the hands"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 108,
+      "fps": 20,
+      "caption_id": "Caption_065",
+      "source_group": "Group_034"
+    },
+    {
+      "caption": "a man lifts his hands up in front his face and turns to his left, and then his right, and puts his hands back down.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "lift hands in front of the face"
+        },
+        {
+          "event_id": "e2",
+          "description": "turn left"
+        },
+        {
+          "event_id": "e3",
+          "description": "turn right"
+        },
+        {
+          "event_id": "e4",
+          "description": "put hands back down"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 108,
+      "fps": 20,
+      "caption_id": "Caption_066",
+      "source_group": "Group_034"
+    },
+    {
+      "caption": "a person quickly hops from one foot to the other, then quickly makes a clockwise circle with their left forearm, and then makes a jump shot like in basketball.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person quickly hops from one foot to the other"
+        },
+        {
+          "event_id": "e2",
+          "description": "quickly makes a clockwise circle with their left forearm"
+        },
+        {
+          "event_id": "e3",
+          "description": "makes a jump shot like in basketball"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 36,
+      "fps": 20,
+      "caption_id": "Caption_067",
+      "source_group": "Group_035"
+    },
+    {
+      "caption": "a person quickly hops from one foot to the other, then quickly makes a counterclockwise circle with their right forearm, and then makes a jump shot like in basketball.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person quickly hops from one foot to the other"
+        },
+        {
+          "event_id": "e2",
+          "description": "quickly makes a counterclockwise circle with their right forearm"
+        },
+        {
+          "event_id": "e3",
+          "description": "makes a jump shot like in basketball"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 36,
+      "fps": 20,
+      "caption_id": "Caption_068",
+      "source_group": "Group_035"
+    },
+    {
+      "caption": "a man is standing and brings both hands to his face then steps out with left foot and performs a low kick.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a man is standing and brings both hands to his face"
+        },
+        {
+          "event_id": "e2",
+          "description": "steps out with left foot and performs a low kick"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 100,
+      "fps": 20,
+      "caption_id": "Caption_069",
+      "source_group": "Group_036"
+    },
+    {
+      "caption": "a man is standing and brings both hands to his face then steps out with right foot and performs a low kick.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a man is standing and brings both hands to his face"
+        },
+        {
+          "event_id": "e2",
+          "description": "steps out with right foot and performs a low kick"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 100,
+      "fps": 20,
+      "caption_id": "Caption_070",
+      "source_group": "Group_036"
+    },
+    {
+      "caption": "clamped both hands together, stepped feet together on one side then returned to middle and released hands.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "clasp both hands together"
+        },
+        {
+          "event_id": "e2",
+          "description": "step with feet together toward one side"
+        },
+        {
+          "event_id": "e3",
+          "description": "return toward the middle"
+        },
+        {
+          "event_id": "e4",
+          "description": "release the hands"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 100,
+      "fps": 20,
+      "caption_id": "Caption_071",
+      "source_group": "Group_036"
+    },
+    {
+      "caption": "a person flails his arms with his left arm raised above his head and his right arm down, then moves his left arm down and right arm up and flails his arms again",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "flails both arms with the left arm above the head and the right arm lowered"
+        },
+        {
+          "event_id": "e2",
+          "description": "lowers the left arm and raises the right arm, then flails the arms again"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 56,
+      "fps": 20,
+      "caption_id": "Caption_072",
+      "source_group": "Group_037"
+    },
+    {
+      "caption": "a man waved his one arm in the air and then he put it down and waved his other arm in the air.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "waves one arm in the air"
+        },
+        {
+          "event_id": "e2",
+          "description": "lowers that arm and waves the other arm"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 56,
+      "fps": 20,
+      "caption_id": "Caption_073",
+      "source_group": "Group_037"
+    },
+    {
+      "caption": "a person flails his arms with his right arm raised above his head and his left arm down, then moves his right arm down and left arm up and flails his arms again",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "flail both arms with the right arm high and left arm low"
+        },
+        {
+          "event_id": "e2",
+          "description": "exchange the arm positions so the right arm is low and left arm is high"
+        },
+        {
+          "event_id": "e3",
+          "description": "flail the arms again in the exchanged positions"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 56,
+      "fps": 20,
+      "caption_id": "Caption_074",
+      "source_group": "Group_037"
+    },
+    {
+      "caption": "a person runs forward, pauses, and then continues running forward.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "runs forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "pauses"
+        },
+        {
+          "event_id": "e3",
+          "description": "resumes running forward"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 32,
+      "fps": 20,
+      "caption_id": "Caption_075",
+      "source_group": "Group_038"
+    },
+    {
+      "caption": "a person runs, hesitates, then runs again.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "runs"
+        },
+        {
+          "event_id": "e2",
+          "description": "hesitates or pauses"
+        },
+        {
+          "event_id": "e3",
+          "description": "runs again"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 32,
+      "fps": 20,
+      "caption_id": "Caption_076",
+      "source_group": "Group_038"
+    },
+    {
+      "caption": "person turns right knee to side then punches right hand to his left",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "person turns right knee to side"
+        },
+        {
+          "event_id": "e2",
+          "description": "punches right hand to his left"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 28,
+      "fps": 20,
+      "caption_id": "Caption_077",
+      "source_group": "Group_039"
+    },
+    {
+      "caption": "person stands and raises right leg, then proceeds to kick into the air towards the right. person then pivots their torso tot he right, raising their left leg and kicking to the right. then comes back to stand center",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "raises the right leg"
+        },
+        {
+          "event_id": "e2",
+          "description": "kicks rightward"
+        },
+        {
+          "event_id": "e3",
+          "description": "pivots the torso right and raises the left leg to kick rightward"
+        },
+        {
+          "event_id": "e4",
+          "description": "returns to a central standing posture"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 84,
+      "fps": 20,
+      "caption_id": "Caption_078",
+      "source_group": "Group_040"
+    },
+    {
+      "caption": "a person kicks with their right leg then with their left leg.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person kicks with their right leg"
+        },
+        {
+          "event_id": "e2",
+          "description": "with their left leg"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 84,
+      "fps": 20,
+      "caption_id": "Caption_079",
+      "source_group": "Group_040"
+    },
+    {
+      "caption": "a person steps foreward and to their right, then turns to face their left",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person steps foreward and to their right"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns to face their left"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 44,
+      "fps": 20,
+      "caption_id": "Caption_080",
+      "source_group": "Group_041"
+    },
+    {
+      "caption": "a person steps foreward and to their left, then turns to face their right",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person steps foreward and to their left"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns to face their right"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 44,
+      "fps": 20,
+      "caption_id": "Caption_081",
+      "source_group": "Group_041"
+    },
+    {
+      "caption": "a person turns to the left, then looks at left wrist.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person turns to the left"
+        },
+        {
+          "event_id": "e2",
+          "description": "looks at left wrist"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 44,
+      "fps": 20,
+      "caption_id": "Caption_082",
+      "source_group": "Group_041"
+    },
+    {
+      "caption": "a person, dribbles basketball from right hand to left hand, readies feet to shoot by aligning them, then grabs the ball with both hands and shoots using their right hand, stepping back with left foot slightly after landing.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "Dribble the basketball from the right hand to the left hand."
+        },
+        {
+          "event_id": "e2",
+          "description": "Align the feet to prepare the shot."
+        },
+        {
+          "event_id": "e3",
+          "description": "Grab the ball with both hands."
+        },
+        {
+          "event_id": "e4",
+          "description": "Shoot with the right hand."
+        },
+        {
+          "event_id": "e5",
+          "description": "Land after the shot."
+        },
+        {
+          "event_id": "e6",
+          "description": "Step the left foot slightly backward."
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ],
+        [
+          "e5",
+          "e6"
+        ]
+      ],
+      "frames": 90,
+      "fps": 20,
+      "caption_id": "Caption_083",
+      "source_group": "Group_042"
+    },
+    {
+      "caption": "a person jumps and stretches out her legs and arms to the sides, pauses, and then performs jumping jacks.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "jumps while spreading arms and legs"
+        },
+        {
+          "event_id": "e2",
+          "description": "pauses"
+        },
+        {
+          "event_id": "e3",
+          "description": "performs jumping jacks"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 100,
+      "fps": 20,
+      "caption_id": "Caption_084",
+      "source_group": "Group_043"
+    },
+    {
+      "caption": "a person walks forward and then turns around on his left foot and walks back.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walks forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns around pivoting on the left foot"
+        },
+        {
+          "event_id": "e3",
+          "description": "walks back"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 80,
+      "fps": 20,
+      "caption_id": "Caption_085",
+      "source_group": "Group_044"
+    },
+    {
+      "caption": "a person walks forward and then turns around on his right foot and walks back.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walks forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns around pivoting on the right foot"
+        },
+        {
+          "event_id": "e3",
+          "description": "walks back"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 80,
+      "fps": 20,
+      "caption_id": "Caption_086",
+      "source_group": "Group_044"
+    },
+    {
+      "caption": "a man walks forward and then turns around and walks in the opposite direction.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a man walks forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns around and walks in the opposite direction"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 80,
+      "fps": 20,
+      "caption_id": "Caption_087",
+      "source_group": "Group_044"
+    },
+    {
+      "caption": "walking backwards and then sitting.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walking backwards"
+        },
+        {
+          "event_id": "e2",
+          "description": "sitting"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 164,
+      "fps": 20,
+      "caption_id": "Caption_088",
+      "source_group": "Group_045"
+    },
+    {
+      "caption": "stick figure rotates counter clockwise walks backwards and then sits down",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "turn"
+        },
+        {
+          "event_id": "e2",
+          "description": "walk backward"
+        },
+        {
+          "event_id": "e3",
+          "description": "sit down"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 140,
+      "fps": 20,
+      "caption_id": "Caption_089",
+      "source_group": "Group_045"
+    },
+    {
+      "caption": "stick figure rotates counter counterclockwise walks backwards and then sits down",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "turn"
+        },
+        {
+          "event_id": "e2",
+          "description": "walk backward"
+        },
+        {
+          "event_id": "e3",
+          "description": "sit down"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 140,
+      "fps": 20,
+      "caption_id": "Caption_090",
+      "source_group": "Group_045"
+    },
+    {
+      "caption": "person makes action of stuffing something into an object, bends over to put the object down before walking forward to bend over and pick up another object and place it a little bit to the left and then returns to original spot.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "Stuff something into an object."
+        },
+        {
+          "event_id": "e2",
+          "description": "Bend over to put that object down."
+        },
+        {
+          "event_id": "e3",
+          "description": "Walk forward."
+        },
+        {
+          "event_id": "e4",
+          "description": "Bend over and pick up another object."
+        },
+        {
+          "event_id": "e5",
+          "description": "Place it a little to the left."
+        },
+        {
+          "event_id": "e6",
+          "description": "Return to the original spot."
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ],
+        [
+          "e5",
+          "e6"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_091",
+      "source_group": "Group_046"
+    },
+    {
+      "caption": "a person begins from a standing position, begins to run to their left, turns around almost immediately, runs several steps, turns back around, and returns to their starting position.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "start running left"
+        },
+        {
+          "event_id": "e2",
+          "description": "turn around"
+        },
+        {
+          "event_id": "e3",
+          "description": "run several steps"
+        },
+        {
+          "event_id": "e4",
+          "description": "turn around again"
+        },
+        {
+          "event_id": "e5",
+          "description": "return toward the starting position"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ]
+      ],
+      "frames": 132,
+      "fps": 20,
+      "caption_id": "Caption_092",
+      "source_group": "Group_047"
+    },
+    {
+      "caption": "person runs forward, pauses, then continues running.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "runs forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "pauses"
+        },
+        {
+          "event_id": "e3",
+          "description": "resumes running"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 60,
+      "fps": 20,
+      "caption_id": "Caption_093",
+      "source_group": "Group_048"
+    },
+    {
+      "caption": "a man brings his arms down, turns to his left and walks, then turns around and walks again, turns and continues walking, then turns one final time as he stops in a standing position.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "bring the arms down"
+        },
+        {
+          "event_id": "e2",
+          "description": "turn left and walk"
+        },
+        {
+          "event_id": "e3",
+          "description": "turn around and walk again"
+        },
+        {
+          "event_id": "e4",
+          "description": "turn and continue walking"
+        },
+        {
+          "event_id": "e5",
+          "description": "turn one final time and stop standing"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ]
+      ],
+      "frames": 184,
+      "fps": 20,
+      "caption_id": "Caption_094",
+      "source_group": "Group_049"
+    },
+    {
+      "caption": "a person raises his right arm and then lowers it.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person raises his right arm"
+        },
+        {
+          "event_id": "e2",
+          "description": "lowers it"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 52,
+      "fps": 20,
+      "caption_id": "Caption_095",
+      "source_group": "Group_050"
+    },
+    {
+      "caption": "person raises left arm to shoulder height and then lowers it back down by side",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "person raises left arm to shoulder height"
+        },
+        {
+          "event_id": "e2",
+          "description": "lowers it back down by side"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 52,
+      "fps": 20,
+      "caption_id": "Caption_096",
+      "source_group": "Group_050"
+    },
+    {
+      "caption": "a person raises his left arm and then lowers it.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person raises his left arm"
+        },
+        {
+          "event_id": "e2",
+          "description": "lowers it"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 52,
+      "fps": 20,
+      "caption_id": "Caption_097",
+      "source_group": "Group_050"
+    },
+    {
+      "caption": "person raises right arm to shoulder height and then lowers it back down by side",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "person raises right arm to shoulder height"
+        },
+        {
+          "event_id": "e2",
+          "description": "lowers it back down by side"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 52,
+      "fps": 20,
+      "caption_id": "Caption_098",
+      "source_group": "Group_050"
+    },
+    {
+      "caption": "a person stretches both their arms and holds the right arm up for a while and then stretches both arms again.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "stretch both arms"
+        },
+        {
+          "event_id": "e2",
+          "description": "hold the right arm upward"
+        },
+        {
+          "event_id": "e3",
+          "description": "stretch both arms again"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 160,
+      "fps": 20,
+      "caption_id": "Caption_099",
+      "source_group": "Group_051"
+    },
+    {
+      "caption": "a person who is standing with his knees bent and his hands on his thighs reaches up with both of his arms, holds his right arm up while his left arm drops, drops his right arm, then lifts both arms out from his sides again.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "raise both arms"
+        },
+        {
+          "event_id": "e2",
+          "description": "lower the left arm while holding the right arm up"
+        },
+        {
+          "event_id": "e3",
+          "description": "lower the right arm"
+        },
+        {
+          "event_id": "e4",
+          "description": "lift both arms outward again"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 164,
+      "fps": 20,
+      "caption_id": "Caption_100",
+      "source_group": "Group_051"
+    },
+    {
+      "caption": "a person stretches both their arms and holds the left arm up for a while and then stretches both arms again.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "stretch both arms"
+        },
+        {
+          "event_id": "e2",
+          "description": "hold the left arm upward"
+        },
+        {
+          "event_id": "e3",
+          "description": "stretch both arms again"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 160,
+      "fps": 20,
+      "caption_id": "Caption_101",
+      "source_group": "Group_051"
+    },
+    {
+      "caption": "a person who is standing with his knees bent and his hands on his thighs reaches up with both of his arms, holds his left arm up while his right arm drops, drops his left arm, then lifts both arms out from his sides again.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "raise both arms"
+        },
+        {
+          "event_id": "e2",
+          "description": "lower the right arm while holding the left arm up"
+        },
+        {
+          "event_id": "e3",
+          "description": "lower the left arm"
+        },
+        {
+          "event_id": "e4",
+          "description": "lift both arms outward again"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 164,
+      "fps": 20,
+      "caption_id": "Caption_102",
+      "source_group": "Group_051"
+    },
+    {
+      "caption": "a man squats and raises his both arms wide apart,lowers the left one down followed by the right one and then repeats.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "squat and spread both arms"
+        },
+        {
+          "event_id": "e2",
+          "description": "lower the left arm"
+        },
+        {
+          "event_id": "e3",
+          "description": "lower the other arm"
+        },
+        {
+          "event_id": "e4",
+          "description": "repeat the sequence"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 164,
+      "fps": 20,
+      "caption_id": "Caption_103",
+      "source_group": "Group_051"
+    },
+    {
+      "caption": "a man squats and raises his both arms wide apart,lowers the right one down followed by the left one and then repeats.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "squat and spread both arms"
+        },
+        {
+          "event_id": "e2",
+          "description": "lower the right arm"
+        },
+        {
+          "event_id": "e3",
+          "description": "lower the other arm"
+        },
+        {
+          "event_id": "e4",
+          "description": "repeat the sequence"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 164,
+      "fps": 20,
+      "caption_id": "Caption_104",
+      "source_group": "Group_051"
+    },
+    {
+      "caption": "the person steps a little wider than shoulder width apart first with their right foot, then with their left before squatting 4 times.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "steps outward with the right foot"
+        },
+        {
+          "event_id": "e2",
+          "description": "steps outward with the left foot"
+        },
+        {
+          "event_id": "e3",
+          "description": "squats four times"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_105",
+      "source_group": "Group_052"
+    },
+    {
+      "caption": "a person bends down and touches their toes, then reaches up and stretches back and forth",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "bends down and reaches toward the toes"
+        },
+        {
+          "event_id": "e2",
+          "description": "reaches upward and stretches from side to side"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_106",
+      "source_group": "Group_053"
+    },
+    {
+      "caption": "a man holds his arms up and then bends over to touch his toes with both hands, raises back up, and then lifts his arms and rotates his torso several times, then leans to both sides once.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a man holds his arms up"
+        },
+        {
+          "event_id": "e2",
+          "description": "bends over to touch his toes with both hands, raises back up"
+        },
+        {
+          "event_id": "e3",
+          "description": "lifts his arms and rotates his torso several times"
+        },
+        {
+          "event_id": "e4",
+          "description": "leans to both sides once"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_107",
+      "source_group": "Group_053"
+    },
+    {
+      "caption": "person raises right arm as if throwing something light into the air. they then return to center and picks up an item with both hands, brings it up to the right war and then back down and across to the left side of the waist. arms then reset to center and hang by waist, then proceed to pick up an item on the right and turn to the left to put down",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "make a light upward throwing gesture with the right arm"
+        },
+        {
+          "event_id": "e2",
+          "description": "return to center and pick something up with both hands"
+        },
+        {
+          "event_id": "e3",
+          "description": "bring the item toward the right ear"
+        },
+        {
+          "event_id": "e4",
+          "description": "lower it across toward the left waist"
+        },
+        {
+          "event_id": "e5",
+          "description": "reset both arms to rest at the waist"
+        },
+        {
+          "event_id": "e6",
+          "description": "pick an item up on the right"
+        },
+        {
+          "event_id": "e7",
+          "description": "turn left and put the item down"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ],
+        [
+          "e5",
+          "e6"
+        ],
+        [
+          "e6",
+          "e7"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_108",
+      "source_group": "Group_054"
+    },
+    {
+      "caption": "a person makes an underhanded throw with his left arm, as if rolling a ball, before raising both arms into the air as if throwing a ball, then he takes two steps back and runs forwards quickly.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "makes an underhand throw gesture with the left arm"
+        },
+        {
+          "event_id": "e2",
+          "description": "raises both arms in a throw gesture"
+        },
+        {
+          "event_id": "e3",
+          "description": "takes two steps backward"
+        },
+        {
+          "event_id": "e4",
+          "description": "runs forward quickly"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_109",
+      "source_group": "Group_055"
+    },
+    {
+      "caption": "a person swings their left arm in a backhand motion and then swings it forward in an uppercut motion.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person swings their left arm in a backhand motion"
+        },
+        {
+          "event_id": "e2",
+          "description": "swings it forward in an uppercut motion"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 36,
+      "fps": 20,
+      "caption_id": "Caption_110",
+      "source_group": "Group_056"
+    },
+    {
+      "caption": "a person walks forward at a normal speed then turns left and continues to walk",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walks forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns left"
+        },
+        {
+          "event_id": "e3",
+          "description": "continues walking"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 120,
+      "fps": 20,
+      "caption_id": "Caption_111",
+      "source_group": "Group_057"
+    },
+    {
+      "caption": "a person walks forward at a normal speed then turns right and continues to walk",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walk forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "turn right"
+        },
+        {
+          "event_id": "e3",
+          "description": "continue walking"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 120,
+      "fps": 20,
+      "caption_id": "Caption_112",
+      "source_group": "Group_057"
+    },
+    {
+      "caption": "a man walks forward and then turns to the right and continues to walk.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walk forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "turn right"
+        },
+        {
+          "event_id": "e3",
+          "description": "continue walking"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 120,
+      "fps": 20,
+      "caption_id": "Caption_113",
+      "source_group": "Group_057"
+    },
+    {
+      "caption": "a man walks forward and then turns to the left and continues to walk.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walk forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "turn left"
+        },
+        {
+          "event_id": "e3",
+          "description": "continue walking"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 120,
+      "fps": 20,
+      "caption_id": "Caption_114",
+      "source_group": "Group_057"
+    },
+    {
+      "caption": "a person walking forward before turning clockwise to stare down a ledge.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person walking forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "turning clockwise to stare down a ledge"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 120,
+      "fps": 20,
+      "caption_id": "Caption_115",
+      "source_group": "Group_057"
+    },
+    {
+      "caption": "a person walking forward before turning counterclockwise to stare down a ledge.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person walking forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "turning counterclockwise to stare down a ledge"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 120,
+      "fps": 20,
+      "caption_id": "Caption_116",
+      "source_group": "Group_057"
+    },
+    {
+      "caption": "the man stretches from side to side then swings his arms in a stretching motion.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "the man stretches from side to side"
+        },
+        {
+          "event_id": "e2",
+          "description": "swings his arms in a stretching motion"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_117",
+      "source_group": "Group_058"
+    },
+    {
+      "caption": "a man raises his right hand, and then brings his hands together and starts rowing by pulling his hands back. he then brings his hands down in a wavy pattern.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "raise the right hand"
+        },
+        {
+          "event_id": "e2",
+          "description": "bring both hands together"
+        },
+        {
+          "event_id": "e3",
+          "description": "make a rowing motion by pulling backward"
+        },
+        {
+          "event_id": "e4",
+          "description": "lower the hands with a wavy movement"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 176,
+      "fps": 20,
+      "caption_id": "Caption_118",
+      "source_group": "Group_059"
+    },
+    {
+      "caption": "someone gestures with their right hand, makes a rowing motion to their right and left, then gestures in a s shape with both their hands before putting both hands in the air.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "gesture with the right hand"
+        },
+        {
+          "event_id": "e2",
+          "description": "make rowing motions toward the right and left"
+        },
+        {
+          "event_id": "e3",
+          "description": "trace an S-shape with both hands"
+        },
+        {
+          "event_id": "e4",
+          "description": "raise both hands into the air"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_119",
+      "source_group": "Group_059"
+    },
+    {
+      "caption": "someone gestures with their left hand, makes a rowing motion to their left and right, then gestures in a s shape with both their hands before putting both hands in the air.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "gesture with the left hand"
+        },
+        {
+          "event_id": "e2",
+          "description": "make rowing motions toward the left and right"
+        },
+        {
+          "event_id": "e3",
+          "description": "trace an S-shape with both hands"
+        },
+        {
+          "event_id": "e4",
+          "description": "raise both hands into the air"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_120",
+      "source_group": "Group_059"
+    },
+    {
+      "caption": "a man raises his left hand, and then brings his hands together and starts rowing by pulling his hands back. he then brings his hands down in a wavy pattern.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "raise the left hand"
+        },
+        {
+          "event_id": "e2",
+          "description": "bring both hands together"
+        },
+        {
+          "event_id": "e3",
+          "description": "make a rowing motion by pulling backward"
+        },
+        {
+          "event_id": "e4",
+          "description": "lower the hands with a wavy movement"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 176,
+      "fps": 20,
+      "caption_id": "Caption_121",
+      "source_group": "Group_059"
+    },
+    {
+      "caption": "a person taps his right hand in the air twice. they then make a rowing movement on each side of their body and then outline a cloud infront of them",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person taps his right hand in the air twice"
+        },
+        {
+          "event_id": "e2",
+          "description": "make a rowing movement on each side of their body"
+        },
+        {
+          "event_id": "e3",
+          "description": "outline a cloud infront of them"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_122",
+      "source_group": "Group_059"
+    },
+    {
+      "caption": "a person taps his left hand in the air twice. they then make a rowing movement on each side of their body and then outline a cloud infront of them",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person taps his left hand in the air twice"
+        },
+        {
+          "event_id": "e2",
+          "description": "make a rowing movement on each side of their body"
+        },
+        {
+          "event_id": "e3",
+          "description": "outline a cloud infront of them"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_123",
+      "source_group": "Group_059"
+    },
+    {
+      "caption": "a person who is standing with his arms by his sides raises his arms above his head, leans to his right, leans to his left and then drops his arms and resumes his standing position.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "raises both arms overhead"
+        },
+        {
+          "event_id": "e2",
+          "description": "leans right"
+        },
+        {
+          "event_id": "e3",
+          "description": "leans left"
+        },
+        {
+          "event_id": "e4",
+          "description": "lowers the arms and resumes upright standing"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 124,
+      "fps": 20,
+      "caption_id": "Caption_124",
+      "source_group": "Group_060"
+    },
+    {
+      "caption": "the person walks forward, waved their hand then stepped backward",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walks forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "waves one hand"
+        },
+        {
+          "event_id": "e3",
+          "description": "steps backward"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 116,
+      "fps": 20,
+      "caption_id": "Caption_125",
+      "source_group": "Group_061"
+    },
+    {
+      "caption": "a man is walking forward then steps over an object then continues walking forward.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a man is walking forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "steps over an object"
+        },
+        {
+          "event_id": "e3",
+          "description": "continues walking forward"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 92,
+      "fps": 20,
+      "caption_id": "Caption_126",
+      "source_group": "Group_062"
+    },
+    {
+      "caption": "a person rotates hands in front of body, then rotates them with arms outstretched from sides, rotates right leg up, to the side and down, and raises left leg.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "circles hands in front of the body"
+        },
+        {
+          "event_id": "e2",
+          "description": "continues arm circles with arms out to the sides"
+        },
+        {
+          "event_id": "e3",
+          "description": "circles the right leg up, sideways and down"
+        },
+        {
+          "event_id": "e4",
+          "description": "raises the left leg"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_127",
+      "source_group": "Group_063"
+    },
+    {
+      "caption": "a person rotates hands in front of body, then rotates them with arms outstretched from sides, rotates left leg up, to the side and down, and raises right leg.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "circles hands in front of the body"
+        },
+        {
+          "event_id": "e2",
+          "description": "continues arm circles with arms out to the sides"
+        },
+        {
+          "event_id": "e3",
+          "description": "circles the left leg up, sideways and down"
+        },
+        {
+          "event_id": "e4",
+          "description": "raises the right leg"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_128",
+      "source_group": "Group_063"
+    },
+    {
+      "caption": "a man rotates his writsts in front of him, then off to the side, then moves his right and left legs.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a man rotates his writsts in front of him"
+        },
+        {
+          "event_id": "e2",
+          "description": "off to the side"
+        },
+        {
+          "event_id": "e3",
+          "description": "moves his right and left legs"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_129",
+      "source_group": "Group_063"
+    },
+    {
+      "caption": "a person is bent over with their arms around a dog.  they bounce around, let the dog stand up and pet it.  they let the dog sit down, look around, and lift the dog up momentarily before putting him back down to their original position.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "bend over with arms around the dog"
+        },
+        {
+          "event_id": "e2",
+          "description": "bounce around"
+        },
+        {
+          "event_id": "e3",
+          "description": "let the dog stand and pet it"
+        },
+        {
+          "event_id": "e4",
+          "description": "let the dog sit down"
+        },
+        {
+          "event_id": "e5",
+          "description": "look around"
+        },
+        {
+          "event_id": "e6",
+          "description": "lift the dog briefly"
+        },
+        {
+          "event_id": "e7",
+          "description": "put the dog down in its original position"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ],
+        [
+          "e5",
+          "e6"
+        ],
+        [
+          "e6",
+          "e7"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_130",
+      "source_group": "Group_064"
+    },
+    {
+      "caption": "a man walks forward two steps and kicks his left leg and foot into the air two times in a row. he then walks backwards two steps and pauses, followed by walking forward two steps and kicks into the air with his right leg and foot.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walks forward two steps"
+        },
+        {
+          "event_id": "e2",
+          "description": "kicks the left leg twice"
+        },
+        {
+          "event_id": "e3",
+          "description": "walks backward two steps and pauses"
+        },
+        {
+          "event_id": "e4",
+          "description": "walks forward two steps"
+        },
+        {
+          "event_id": "e5",
+          "description": "kicks the right leg"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_131",
+      "source_group": "Group_065"
+    },
+    {
+      "caption": "a person walks forward to the right, then takes several steps backwards, stumbles and steps to the right.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walks diagonally forward-right"
+        },
+        {
+          "event_id": "e2",
+          "description": "takes several steps backward"
+        },
+        {
+          "event_id": "e3",
+          "description": "stumbles and steps right"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_132",
+      "source_group": "Group_066"
+    },
+    {
+      "caption": "man walks forward then backwards then stumbles to his right then to his left",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "man walks forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "backwards"
+        },
+        {
+          "event_id": "e3",
+          "description": "stumbles to his right"
+        },
+        {
+          "event_id": "e4",
+          "description": "to his left"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_133",
+      "source_group": "Group_066"
+    },
+    {
+      "caption": "a person raises his left arm and then waves at someone.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person raises his left arm"
+        },
+        {
+          "event_id": "e2",
+          "description": "waves at someone"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 52,
+      "fps": 20,
+      "caption_id": "Caption_134",
+      "source_group": "Group_067"
+    },
+    {
+      "caption": "a person raises their hand, turns to their right while waving, and then stops and lowers their hand.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "raises one hand"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns right while waving"
+        },
+        {
+          "event_id": "e3",
+          "description": "stops and lowers the hand"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 52,
+      "fps": 20,
+      "caption_id": "Caption_135",
+      "source_group": "Group_067"
+    },
+    {
+      "caption": "a person raises his right arm and then waves at someone.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person raises his right arm"
+        },
+        {
+          "event_id": "e2",
+          "description": "waves at someone"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 52,
+      "fps": 20,
+      "caption_id": "Caption_136",
+      "source_group": "Group_067"
+    },
+    {
+      "caption": "a person waiving looking straight and then turning attention to the left.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person waiving looking straight"
+        },
+        {
+          "event_id": "e2",
+          "description": "turning attention to the left"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 52,
+      "fps": 20,
+      "caption_id": "Caption_137",
+      "source_group": "Group_067"
+    },
+    {
+      "caption": "a person waiving looking straight and then turning attention to the right.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person waiving looking straight"
+        },
+        {
+          "event_id": "e2",
+          "description": "turning attention to the right"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 52,
+      "fps": 20,
+      "caption_id": "Caption_138",
+      "source_group": "Group_067"
+    },
+    {
+      "caption": "a person raises their hand, turns to their left while waving, and then stops and lowers their hand.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "raises one hand"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns left while waving"
+        },
+        {
+          "event_id": "e3",
+          "description": "stops and lowers the hand"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 52,
+      "fps": 20,
+      "caption_id": "Caption_139",
+      "source_group": "Group_067"
+    },
+    {
+      "caption": "a person jogs forward a few steps, then turns sharply to his right and continues jogging.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "jogs forward a few steps"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns sharply right"
+        },
+        {
+          "event_id": "e3",
+          "description": "continues jogging"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 56,
+      "fps": 20,
+      "caption_id": "Caption_140",
+      "source_group": "Group_068"
+    },
+    {
+      "caption": "a person jogs forward a few steps, then turns sharply to his left and continues jogging.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "jogs forward a few steps"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns sharply left"
+        },
+        {
+          "event_id": "e3",
+          "description": "continues jogging"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 56,
+      "fps": 20,
+      "caption_id": "Caption_141",
+      "source_group": "Group_068"
+    },
+    {
+      "caption": "running forward taking a right turn then running to the left",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "run forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "take a right turn"
+        },
+        {
+          "event_id": "e3",
+          "description": "run toward the left"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 56,
+      "fps": 20,
+      "caption_id": "Caption_142",
+      "source_group": "Group_068"
+    },
+    {
+      "caption": "the person grabs something in front of them, walks away, walks back, returns it and picks it back up again and begins to walk away again.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "grab an object in front"
+        },
+        {
+          "event_id": "e2",
+          "description": "walk away"
+        },
+        {
+          "event_id": "e3",
+          "description": "walk back"
+        },
+        {
+          "event_id": "e4",
+          "description": "return the object"
+        },
+        {
+          "event_id": "e5",
+          "description": "pick the object up again and begin walking away"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_143",
+      "source_group": "Group_069"
+    },
+    {
+      "caption": "a person lifts his left hand up, then right hand up and waves them about, then put his hands down",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person lifts his left hand up"
+        },
+        {
+          "event_id": "e2",
+          "description": "right hand up and waves them about"
+        },
+        {
+          "event_id": "e3",
+          "description": "put his hands down"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 136,
+      "fps": 20,
+      "caption_id": "Caption_144",
+      "source_group": "Group_070"
+    },
+    {
+      "caption": "person walks forward a few steps, stagers to the right then  walks forward and ends up inline with the left side.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walks forward a few steps"
+        },
+        {
+          "event_id": "e2",
+          "description": "staggers right"
+        },
+        {
+          "event_id": "e3",
+          "description": "walks forward to rejoin a course to the left"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 120,
+      "fps": 20,
+      "caption_id": "Caption_145",
+      "source_group": "Group_071"
+    },
+    {
+      "caption": "a man takes a couple steps forward, staggers suddenly to his left, then resumes walking back to the course he was originally on.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "takes a couple of steps forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "staggers left"
+        },
+        {
+          "event_id": "e3",
+          "description": "resumes walking along the original course"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 120,
+      "fps": 20,
+      "caption_id": "Caption_146",
+      "source_group": "Group_072"
+    },
+    {
+      "caption": "a person walks forward, then is pushed to their right and then returns to walking in the line they were.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walks forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "undergoes a sudden rightward body displacement or loss of balance"
+        },
+        {
+          "event_id": "e3",
+          "description": "resumes forward walking along the initial line"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 120,
+      "fps": 20,
+      "caption_id": "Caption_147",
+      "source_group": "Group_072"
+    },
+    {
+      "caption": "a person walks forward, then is pushed to their left and then returns to walking in the line they were.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person walks forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "is pushed to their left"
+        },
+        {
+          "event_id": "e3",
+          "description": "returns to walking in the line they were"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 120,
+      "fps": 20,
+      "caption_id": "Caption_148",
+      "source_group": "Group_072"
+    },
+    {
+      "caption": "a person, standing, raises his left hand as if to check his watch and then lowers his hand back to his side.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "raises the left hand toward the face in a watch-checking posture"
+        },
+        {
+          "event_id": "e2",
+          "description": "lowers the left hand to the side"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 44,
+      "fps": 20,
+      "caption_id": "Caption_149",
+      "source_group": "Group_073"
+    },
+    {
+      "caption": "a person touches his chest with his right hand and then lowers his hand.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person touches his chest with his right hand"
+        },
+        {
+          "event_id": "e2",
+          "description": "lowers his hand"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 44,
+      "fps": 20,
+      "caption_id": "Caption_150",
+      "source_group": "Group_073"
+    },
+    {
+      "caption": "a person, standing, raises his right hand as if to check his watch and then lowers his hand back to his side.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person, standing, raises his right hand as if to check his watch"
+        },
+        {
+          "event_id": "e2",
+          "description": "lowers his hand back to his side"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 44,
+      "fps": 20,
+      "caption_id": "Caption_151",
+      "source_group": "Group_073"
+    },
+    {
+      "caption": "a person touches his chest with his left hand and then lowers his hand.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person touches his chest with his left hand"
+        },
+        {
+          "event_id": "e2",
+          "description": "lowers his hand"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 44,
+      "fps": 20,
+      "caption_id": "Caption_152",
+      "source_group": "Group_073"
+    },
+    {
+      "caption": "a person is running on the spot, then turns right and jabs with both arms, then turns left and continues running on the spot.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "run in place"
+        },
+        {
+          "event_id": "e2",
+          "description": "turn right"
+        },
+        {
+          "event_id": "e3",
+          "description": "jab with both arms"
+        },
+        {
+          "event_id": "e4",
+          "description": "turn left"
+        },
+        {
+          "event_id": "e5",
+          "description": "resume running in place"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ]
+      ],
+      "frames": 180,
+      "fps": 20,
+      "caption_id": "Caption_153",
+      "source_group": "Group_074"
+    },
+    {
+      "caption": "a person squats down then stands back up and rotates their torso right and left.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "squats down"
+        },
+        {
+          "event_id": "e2",
+          "description": "stands upright"
+        },
+        {
+          "event_id": "e3",
+          "description": "rotates the torso right and then left"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_154",
+      "source_group": "Group_075"
+    },
+    {
+      "caption": "a man takes several steps forward, jumps over an imaginary obstacle, lands on both feet, takes several more steps forward, turns around 180 degrees, takes several steps forward and jumps over same obstacle and returns to start.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "take several steps forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "jump over the obstacle and land on both feet"
+        },
+        {
+          "event_id": "e3",
+          "description": "take several more steps forward"
+        },
+        {
+          "event_id": "e4",
+          "description": "turn around 180 degrees"
+        },
+        {
+          "event_id": "e5",
+          "description": "take several steps forward"
+        },
+        {
+          "event_id": "e6",
+          "description": "jump over the same obstacle again"
+        },
+        {
+          "event_id": "e7",
+          "description": "return to the starting point"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ],
+        [
+          "e5",
+          "e6"
+        ],
+        [
+          "e6",
+          "e7"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_155",
+      "source_group": "Group_076"
+    },
+    {
+      "caption": "a person who is standing with his arms out and level with his shoulders drops his arms, then swings his left arm forward four times, then swings his left arm backwards four times and stops.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "lowers both arms from shoulder height"
+        },
+        {
+          "event_id": "e2",
+          "description": "swings the left arm forward four times"
+        },
+        {
+          "event_id": "e3",
+          "description": "swings the left arm backward four times"
+        },
+        {
+          "event_id": "e4",
+          "description": "stops the arm swings"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_156",
+      "source_group": "Group_077"
+    },
+    {
+      "caption": "a person standing in a t pose, then proceeds to spin the right arm clockwise and then anti-clock wise ; then switches arms",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person standing in a t pose"
+        },
+        {
+          "event_id": "e2",
+          "description": "proceeds to spin the right arm clockwise"
+        },
+        {
+          "event_id": "e3",
+          "description": "anti-clock wise ;"
+        },
+        {
+          "event_id": "e4",
+          "description": "switches arms"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_157",
+      "source_group": "Group_077"
+    },
+    {
+      "caption": "a person who is standing with his arms out and level with his shoulders drops his arms, then swings his right arm forward four times, then swings his right arm backwards four times and stops.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "lowers both arms from shoulder height"
+        },
+        {
+          "event_id": "e2",
+          "description": "swings the right arm forward four times"
+        },
+        {
+          "event_id": "e3",
+          "description": "swings the right arm backward four times"
+        },
+        {
+          "event_id": "e4",
+          "description": "stops the arm swings"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_158",
+      "source_group": "Group_077"
+    },
+    {
+      "caption": "a person standing in a t pose, then proceeds to spin the left arm counterclockwise and then anti-clock wise ; then switches arms",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person standing in a t pose"
+        },
+        {
+          "event_id": "e2",
+          "description": "proceeds to spin the left arm counterclockwise"
+        },
+        {
+          "event_id": "e3",
+          "description": "anti-clock wise ;"
+        },
+        {
+          "event_id": "e4",
+          "description": "switches arms"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_159",
+      "source_group": "Group_077"
+    },
+    {
+      "caption": "a man standing on a platform moves few steps back in a slow speed and with his right hand first throws something forward, after that he takes a few steps back and with his right hand at a lower level throws something at a high velocity than the previous. after that he takes a step back and stops.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "take slow steps backward on the platform"
+        },
+        {
+          "event_id": "e2",
+          "description": "make the first right-hand throw"
+        },
+        {
+          "event_id": "e3",
+          "description": "take more backward steps"
+        },
+        {
+          "event_id": "e4",
+          "description": "make the stronger throw from a lower right-hand position"
+        },
+        {
+          "event_id": "e5",
+          "description": "take a final backward step and stop"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_160",
+      "source_group": "Group_078"
+    },
+    {
+      "caption": "person runs in place, stops, then runs in place again. he crouches down and creeps forward starting with his left foot.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "runs in place"
+        },
+        {
+          "event_id": "e2",
+          "description": "stops"
+        },
+        {
+          "event_id": "e3",
+          "description": "runs in place again"
+        },
+        {
+          "event_id": "e4",
+          "description": "crouches and creeps forward starting with the left foot"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_161",
+      "source_group": "Group_079"
+    },
+    {
+      "caption": "person runs in place, stops, then runs in place again. he crouches down and creeps forward starting with his right foot.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "runs in place"
+        },
+        {
+          "event_id": "e2",
+          "description": "stops"
+        },
+        {
+          "event_id": "e3",
+          "description": "runs in place again"
+        },
+        {
+          "event_id": "e4",
+          "description": "crouches and creeps forward starting with the right foot"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_162",
+      "source_group": "Group_079"
+    },
+    {
+      "caption": "the figure jogs in place slowly before pausing and jogging in place quickly before squatting down and doing a walking squat.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "jog slowly in place"
+        },
+        {
+          "event_id": "e2",
+          "description": "pause"
+        },
+        {
+          "event_id": "e3",
+          "description": "jog quickly in place"
+        },
+        {
+          "event_id": "e4",
+          "description": "squat down"
+        },
+        {
+          "event_id": "e5",
+          "description": "walk while maintaining a squat"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_163",
+      "source_group": "Group_079"
+    },
+    {
+      "caption": "a person puts one hand on their hip and the other in the air, then raises and lowers both arms together",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person puts one hand on their hip and the other in the air"
+        },
+        {
+          "event_id": "e2",
+          "description": "raises and lowers both arms together"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_164",
+      "source_group": "Group_080"
+    },
+    {
+      "caption": "left arm wrapped around something, right arm waving then both arms grabbing at something above, then back to left arm wrapped around something and right arm waving.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "left arm wrapped around something, right arm waving"
+        },
+        {
+          "event_id": "e2",
+          "description": "both arms grabbing at something above"
+        },
+        {
+          "event_id": "e3",
+          "description": "back to left arm wrapped around something and right arm waving"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_165",
+      "source_group": "Group_080"
+    },
+    {
+      "caption": "right arm wrapped around something, left arm waving then both arms grabbing at something above, then back to right arm wrapped around something and left arm waving.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "right arm wrapped around something, left arm waving"
+        },
+        {
+          "event_id": "e2",
+          "description": "both arms grabbing at something above"
+        },
+        {
+          "event_id": "e3",
+          "description": "back to right arm wrapped around something and left arm waving"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_166",
+      "source_group": "Group_080"
+    },
+    {
+      "caption": "a person have left arm hung up then switch to a cutting motion",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person have left arm hung up"
+        },
+        {
+          "event_id": "e2",
+          "description": "switch to a cutting motion"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_167",
+      "source_group": "Group_080"
+    },
+    {
+      "caption": "a person have right arm hung up then switch to a cutting motion",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person have right arm hung up"
+        },
+        {
+          "event_id": "e2",
+          "description": "switch to a cutting motion"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_168",
+      "source_group": "Group_080"
+    },
+    {
+      "caption": "a person walks forward and bends down and grabs his left knee in pain. he attempts to straighten up and walk forward and then bends down to grab his knee again. he then walks backward to his left.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walk forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "bend down and grab the left knee"
+        },
+        {
+          "event_id": "e3",
+          "description": "attempt to straighten and walk forward"
+        },
+        {
+          "event_id": "e4",
+          "description": "bend down and grab the knee again"
+        },
+        {
+          "event_id": "e5",
+          "description": "walk backward toward the left"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ]
+      ],
+      "frames": 136,
+      "fps": 20,
+      "caption_id": "Caption_169",
+      "source_group": "Group_081"
+    },
+    {
+      "caption": "a man stands and raises both of his arms overhead and then makes up and downwards movements.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a man stands and raises both of his arms overhead"
+        },
+        {
+          "event_id": "e2",
+          "description": "makes up and downwards movements"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 44,
+      "fps": 20,
+      "caption_id": "Caption_170",
+      "source_group": "Group_082"
+    },
+    {
+      "caption": "a person walks to the right with a limp, then turns around and sprints back to where he started",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walks right with a limp"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns around"
+        },
+        {
+          "event_id": "e3",
+          "description": "sprints back toward the starting position"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_171",
+      "source_group": "Group_083"
+    },
+    {
+      "caption": "a person walks to the left with a limp, then turns around and sprints back to where he started",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "walks left with a limp"
+        },
+        {
+          "event_id": "e2",
+          "description": "turns around"
+        },
+        {
+          "event_id": "e3",
+          "description": "sprints back toward the start"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_172",
+      "source_group": "Group_083"
+    },
+    {
+      "caption": "a person who is running, stops, bends over and looks down while taking small steps, then resumes running.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "runs"
+        },
+        {
+          "event_id": "e2",
+          "description": "stops"
+        },
+        {
+          "event_id": "e3",
+          "description": "bends forward while taking small steps"
+        },
+        {
+          "event_id": "e4",
+          "description": "resumes running"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ]
+      ],
+      "frames": 76,
+      "fps": 20,
+      "caption_id": "Caption_173",
+      "source_group": "Group_084"
+    },
+    {
+      "caption": "person jogs, stops to bend over, then continues jogging.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "jog or sprint forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "stop and bend over with hands on knees"
+        },
+        {
+          "event_id": "e3",
+          "description": "continue jogging or sprinting"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 76,
+      "fps": 20,
+      "caption_id": "Caption_174",
+      "source_group": "Group_084"
+    },
+    {
+      "caption": "a person runs forward quickly, stops on their left foot, then runs in a different direction.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "runs forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "stops on the left foot"
+        },
+        {
+          "event_id": "e3",
+          "description": "runs in a different direction"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 60,
+      "fps": 20,
+      "caption_id": "Caption_175",
+      "source_group": "Group_085"
+    },
+    {
+      "caption": "a person runs forward quickly, stops on their right foot, then runs in a different direction.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "runs forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "stops on the right foot"
+        },
+        {
+          "event_id": "e3",
+          "description": "runs in a different direction"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ]
+      ],
+      "frames": 60,
+      "fps": 20,
+      "caption_id": "Caption_176",
+      "source_group": "Group_085"
+    },
+    {
+      "caption": "a person starts at top right, runs towards the center bottom and then back towards the top left.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person starts at top right, runs towards the center bottom"
+        },
+        {
+          "event_id": "e2",
+          "description": "back towards the top left"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 60,
+      "fps": 20,
+      "caption_id": "Caption_177",
+      "source_group": "Group_085"
+    },
+    {
+      "caption": "a man runs forwards diagonally and then pivots ninety degrees and runs",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a man runs forwards diagonally"
+        },
+        {
+          "event_id": "e2",
+          "description": "pivots ninety degrees and runs"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 60,
+      "fps": 20,
+      "caption_id": "Caption_178",
+      "source_group": "Group_085"
+    },
+    {
+      "caption": "a person starts at top left, runs towards the center bottom and then back towards the top right.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "a person starts at top left, runs towards the center bottom"
+        },
+        {
+          "event_id": "e2",
+          "description": "back towards the top right"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ]
+      ],
+      "frames": 60,
+      "fps": 20,
+      "caption_id": "Caption_179",
+      "source_group": "Group_085"
+    },
+    {
+      "caption": "a person looks at the ground and steps forward, moves arms in a counter clockwise circle, looks down and centers himself, jumps twice and moves arms in clockwise circles twice, then turns to the right and stretches arms above head.",
+      "events": [
+        {
+          "event_id": "e1",
+          "description": "look down and step forward"
+        },
+        {
+          "event_id": "e2",
+          "description": "circle the arms counterclockwise"
+        },
+        {
+          "event_id": "e3",
+          "description": "look down and center the body"
+        },
+        {
+          "event_id": "e4",
+          "description": "jump twice and make two clockwise arm circles"
+        },
+        {
+          "event_id": "e5",
+          "description": "turn right and stretch both arms overhead"
+        }
+      ],
+      "precedence_edges": [
+        [
+          "e1",
+          "e2"
+        ],
+        [
+          "e2",
+          "e3"
+        ],
+        [
+          "e3",
+          "e4"
+        ],
+        [
+          "e4",
+          "e5"
+        ]
+      ],
+      "frames": 196,
+      "fps": 20,
+      "caption_id": "Caption_180",
+      "source_group": "Group_086"
+    }
+  ]
+}

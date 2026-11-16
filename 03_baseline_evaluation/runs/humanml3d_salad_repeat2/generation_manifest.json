@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "method": "SALAD",
+  "records": 4640,
+  "seeds": [
+    41002
+  ],
+  "outputs": 4640,
+  "time_steps": 50,
+  "cond_scale": 7.5,
+  "records_sha256": "a7dd20a8921924e8b1920d5d9579429e7a64888d06af39c2c3df9d1fa35de906",
+  "denoiser_checkpoint_sha256": "963c1b8ff34e905adf89b91c7b58cac3b9ea85f0f5acfa4618248f161effe41e",
+  "vae_checkpoint_sha256": "353ecd1a47647a18ec9bb116cd3456e472f997509150f967871ebafc3d58d9fb",
+  "scope": "corrected_baseline_unified_reevaluation"
+}

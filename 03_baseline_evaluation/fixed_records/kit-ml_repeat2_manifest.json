@@ -1,0 +1,519 @@
+{
+  "records": 704,
+  "pool_records": 734,
+  "dropped_last": [
+    "02084:full",
+    "01241:full",
+    "01437:full",
+    "M00877:full",
+    "M01609:full",
+    "01353:full",
+    "M02285:full",
+    "02906:full",
+    "01525:full",
+    "M01604:full",
+    "M02364:full",
+    "01108:full",
+    "M02311:full",
+    "01259:full",
+    "M00463:full",
+    "02895:full",
+    "M03151:full",
+    "M00228:full",
+    "01978:full",
+    "00019:full",
+    "02165:full",
+    "02285:full",
+    "03297:full",
+    "M02239:full",
+    "M01586:full",
+    "M00352:full",
+    "02891:full",
+    "M00342:full",
+    "01136:full",
+    "M00309:full"
+  ],
+  "excluded": [
+    {
+      "motion_id": "02523",
+      "reason": "source_length",
+      "frames": 594
+    },
+    {
+      "motion_id": "02581",
+      "reason": "source_length",
+      "frames": 585
+    },
+    {
+      "motion_id": "02751",
+      "reason": "source_length",
+      "frames": 245
+    },
+    {
+      "motion_id": "02749",
+      "reason": "source_length",
+      "frames": 335
+    },
+    {
+      "motion_id": "03476",
+      "reason": "source_length",
+      "frames": 18
+    },
+    {
+      "motion_id": "02967",
+      "reason": "source_length",
+      "frames": 371
+    },
+    {
+      "motion_id": "02556",
+      "reason": "source_length",
+      "frames": 422
+    },
+    {
+      "motion_id": "03128",
+      "reason": "source_length",
+      "frames": 222
+    },
+    {
+      "motion_id": "00704",
+      "reason": "source_length",
+      "frames": 20
+    },
+    {
+      "motion_id": "02344",
+      "reason": "source_length",
+      "frames": 267
+    },
+    {
+      "motion_id": "03825",
+      "reason": "source_length",
+      "frames": 389
+    },
+    {
+      "motion_id": "00591",
+      "reason": "source_length",
+      "frames": 15
+    },
+    {
+      "motion_id": "02542",
+      "reason": "source_length",
+      "frames": 984
+    },
+    {
+      "motion_id": "03459",
+      "reason": "source_length",
+      "frames": 314
+    },
+    {
+      "motion_id": "03396",
+      "reason": "source_length",
+      "frames": 369
+    },
+    {
+      "motion_id": "02971",
+      "reason": "source_length",
+      "frames": 236
+    },
+    {
+      "motion_id": "02209",
+      "reason": "source_length",
+      "frames": 12
+    },
+    {
+      "motion_id": "02441",
+      "reason": "source_length",
+      "frames": 596
+    },
+    {
+      "motion_id": "02015",
+      "reason": "source_length",
+      "frames": 9
+    },
+    {
+      "motion_id": "02574",
+      "reason": "source_length",
+      "frames": 331
+    },
+    {
+      "motion_id": "03691",
+      "reason": "source_length",
+      "frames": 21
+    },
+    {
+      "motion_id": "02644",
+      "reason": "source_length",
+      "frames": 518
+    },
+    {
+      "motion_id": "03917",
+      "reason": "source_length",
+      "frames": 322
+    },
+    {
+      "motion_id": "03411",
+      "reason": "source_length",
+      "frames": 413
+    },
+    {
+      "motion_id": "02553",
+      "reason": "source_length",
+      "frames": 454
+    },
+    {
+      "motion_id": "03404",
+      "reason": "source_length",
+      "frames": 483
+    },
+    {
+      "motion_id": "03593",
+      "reason": "source_length",
+      "frames": 263
+    },
+    {
+      "motion_id": "02582",
+      "reason": "source_length",
+      "frames": 803
+    },
+    {
+      "motion_id": "02011",
+      "reason": "source_length",
+      "frames": 12
+    },
+    {
+      "motion_id": "02007",
+      "reason": "source_length",
+      "frames": 13
+    },
+    {
+      "motion_id": "03481",
+      "reason": "source_length",
+      "frames": 17
+    },
+    {
+      "motion_id": "02021",
+      "reason": "source_length",
+      "frames": 10
+    },
+    {
+      "motion_id": "02278",
+      "reason": "source_length",
+      "frames": 279
+    },
+    {
+      "motion_id": "03683",
+      "reason": "source_length",
+      "frames": 23
+    },
+    {
+      "motion_id": "02979",
+      "reason": "source_length",
+      "frames": 13
+    },
+    {
+      "motion_id": "02666",
+      "reason": "source_length",
+      "frames": 598
+    },
+    {
+      "motion_id": "02440",
+      "reason": "source_length",
+      "frames": 203
+    },
+    {
+      "motion_id": "03577",
+      "reason": "source_length",
+      "frames": 16
+    },
+    {
+      "motion_id": "02392",
+      "reason": "source_length",
+      "frames": 764
+    },
+    {
+      "motion_id": "02470",
+      "reason": "source_length",
+      "frames": 319
+    },
+    {
+      "motion_id": "03930",
+      "reason": "source_length",
+      "frames": 219
+    },
+    {
+      "motion_id": "02394",
+      "reason": "source_length",
+      "frames": 343
+    },
+    {
+      "motion_id": "03314",
+      "reason": "source_length",
+      "frames": 1327
+    },
+    {
+      "motion_id": "02193",
+      "reason": "source_length",
+      "frames": 359
+    },
+    {
+      "motion_id": "02342",
+      "reason": "source_length",
+      "frames": 203
+    },
+    {
+      "motion_id": "03240",
+      "reason": "source_length",
+      "frames": 12
+    },
+    {
+      "motion_id": "02449",
+      "reason": "source_length",
+      "frames": 672
+    },
+    {
+      "motion_id": "02435",
+      "reason": "source_length",
+      "frames": 270
+    },
+    {
+      "motion_id": "M02523",
+      "reason": "source_length",
+      "frames": 594
+    },
+    {
+      "motion_id": "M02581",
+      "reason": "source_length",
+      "frames": 585
+    },
+    {
+      "motion_id": "M02751",
+      "reason": "source_length",
+      "frames": 245
+    },
+    {
+      "motion_id": "M02749",
+      "reason": "source_length",
+      "frames": 335
+    },
+    {
+      "motion_id": "M03476",
+      "reason": "source_length",
+      "frames": 18
+    },
+    {
+      "motion_id": "M02967",
+      "reason": "source_length",
+      "frames": 371
+    },
+    {
+      "motion_id": "M02556",
+      "reason": "source_length",
+      "frames": 422
+    },
+    {
+      "motion_id": "M03128",
+      "reason": "source_length",
+      "frames": 222
+    },
+    {
+      "motion_id": "M00704",
+      "reason": "source_length",
+      "frames": 20
+    },
+    {
+      "motion_id": "M02344",
+      "reason": "source_length",
+      "frames": 267
+    },
+    {
+      "motion_id": "M03825",
+      "reason": "source_length",
+      "frames": 389
+    },
+    {
+      "motion_id": "M00591",
+      "reason": "source_length",
+      "frames": 15
+    },
+    {
+      "motion_id": "M02542",
+      "reason": "source_length",
+      "frames": 984
+    },
+    {
+      "motion_id": "M03459",
+      "reason": "source_length",
+      "frames": 314
+    },
+    {
+      "motion_id": "M03396",
+      "reason": "source_length",
+      "frames": 369
+    },
+    {
+      "motion_id": "M02971",
+      "reason": "source_length",
+      "frames": 236
+    },
+    {
+      "motion_id": "M02209",
+      "reason": "source_length",
+      "frames": 12
+    },
+    {
+      "motion_id": "M02441",
+      "reason": "source_length",
+      "frames": 596
+    },
+    {
+      "motion_id": "M02015",
+      "reason": "source_length",
+      "frames": 9
+    },
+    {
+      "motion_id": "M02574",
+      "reason": "source_length",
+      "frames": 331
+    },
+    {
+      "motion_id": "M03691",
+      "reason": "source_length",
+      "frames": 21
+    },
+    {
+      "motion_id": "M02644",
+      "reason": "source_length",
+      "frames": 518
+    },
+    {
+      "motion_id": "M03917",
+      "reason": "source_length",
+      "frames": 322
+    },
+    {
+      "motion_id": "M03411",
+      "reason": "source_length",
+      "frames": 413
+    },
+    {
+      "motion_id": "M02553",
+      "reason": "source_length",
+      "frames": 454
+    },
+    {
+      "motion_id": "M03404",
+      "reason": "source_length",
+      "frames": 483
+    },
+    {
+      "motion_id": "M03593",
+      "reason": "source_length",
+      "frames": 263
+    },
+    {
+      "motion_id": "M02582",
+      "reason": "source_length",
+      "frames": 803
+    },
+    {
+      "motion_id": "M02011",
+      "reason": "source_length",
+      "frames": 12
+    },
+    {
+      "motion_id": "M02007",
+      "reason": "source_length",
+      "frames": 13
+    },
+    {
+      "motion_id": "M03481",
+      "reason": "source_length",
+      "frames": 17
+    },
+    {
+      "motion_id": "M02021",
+      "reason": "source_length",
+      "frames": 10
+    },
+    {
+      "motion_id": "M02278",
+      "reason": "source_length",
+      "frames": 279
+    },
+    {
+      "motion_id": "M03683",
+      "reason": "source_length",
+      "frames": 23
+    },
+    {
+      "motion_id": "M02979",
+      "reason": "source_length",
+      "frames": 13
+    },
+    {
+      "motion_id": "M02666",
+      "reason": "source_length",
+      "frames": 598
+    },
+    {
+      "motion_id": "M02440",
+      "reason": "source_length",
+      "frames": 203
+    },
+    {
+      "motion_id": "M03577",
+      "reason": "source_length",
+      "frames": 16
+    },
+    {
+      "motion_id": "M02392",
+      "reason": "source_length",
+      "frames": 764
+    },
+    {
+      "motion_id": "M02470",
+      "reason": "source_length",
+      "frames": 319
+    },
+    {
+      "motion_id": "M03930",
+      "reason": "source_length",
+      "frames": 219
+    },
+    {
+      "motion_id": "M02394",
+      "reason": "source_length",
+      "frames": 343
+    },
+    {
+      "motion_id": "M03314",
+      "reason": "source_length",
+      "frames": 1327
+    },
+    {
+      "motion_id": "M02193",
+      "reason": "source_length",
+      "frames": 359
+    },
+    {
+      "motion_id": "M02342",
+      "reason": "source_length",
+      "frames": 203
+    },
+    {
+      "motion_id": "M03240",
+      "reason": "source_length",
+      "frames": 12
+    },
+    {
+      "motion_id": "M02449",
+      "reason": "source_length",
+      "frames": 672
+    },
+    {
+      "motion_id": "M02435",
+      "reason": "source_length",
+      "frames": 270
+    }
+  ],
+  "sha256": "21bb9209405a55c8f3e637ce7618ac224cb6cd4733ca755258ca292da758aec2"
+}

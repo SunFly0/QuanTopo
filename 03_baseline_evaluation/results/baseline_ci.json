@@ -1,0 +1,204 @@
+{
+  "scope": "baseline-only evaluation",
+  "seed": 2026,
+  "results": [
+    {
+      "dataset": "humanml3d",
+      "method": "momask",
+      "repeats": 3,
+      "bootstrap_replicates": 10000,
+      "interval_type": "two-level percentile bootstrap, marginal for this method; not a QuanTopo paired difference",
+      "plan_sha256": "4829fabdf4204ad39596f8408867215043db8cf59cd85327a8366bb9c9c7fac8",
+      "metrics": {
+        "fid": {
+          "point_estimate": 0.05943253053444495,
+          "ci95": [
+            0.06395490401693303,
+            0.08899241017933962
+          ]
+        },
+        "r1": {
+          "point_estimate": 0.523132183908046,
+          "ci95": [
+            0.5143313764990429,
+            0.531998364920526
+          ]
+        },
+        "r2": {
+          "point_estimate": 0.7151580459770116,
+          "ci95": [
+            0.7065696825759098,
+            0.7239283966022557
+          ]
+        },
+        "r3": {
+          "point_estimate": 0.8084051724137931,
+          "ci95": [
+            0.801249082069972,
+            0.8155181809583198
+          ]
+        },
+        "matching": {
+          "point_estimate": 2.9454012399946135,
+          "ci95": [
+            2.913183076364022,
+            2.9774970276195476
+          ]
+        }
+      }
+    },
+    {
+      "dataset": "humanml3d",
+      "method": "motionhiflow",
+      "repeats": 3,
+      "bootstrap_replicates": 10000,
+      "interval_type": "two-level percentile bootstrap, marginal for this method; not a QuanTopo paired difference",
+      "plan_sha256": "4829fabdf4204ad39596f8408867215043db8cf59cd85327a8366bb9c9c7fac8",
+      "metrics": {
+        "fid": {
+          "point_estimate": 0.038408243095901205,
+          "ci95": [
+            0.04584531466052096,
+            0.06140107580931288
+          ]
+        },
+        "r1": {
+          "point_estimate": 0.5627155172413794,
+          "ci95": [
+            0.5535885894124649,
+            0.5719152187687482
+          ]
+        },
+        "r2": {
+          "point_estimate": 0.7545977011494253,
+          "ci95": [
+            0.7453732391312091,
+            0.7638815931067565
+          ]
+        },
+        "r3": {
+          "point_estimate": 0.8431752873563219,
+          "ci95": [
+            0.8361614367952387,
+            0.8498046393400618
+          ]
+        },
+        "matching": {
+          "point_estimate": 2.7050802399308007,
+          "ci95": [
+            2.6759981688611694,
+            2.73500338409071
+          ]
+        }
+      }
+    },
+    {
+      "dataset": "humanml3d",
+      "method": "salad",
+      "repeats": 3,
+      "bootstrap_replicates": 10000,
+      "interval_type": "two-level percentile bootstrap, marginal for this method; not a QuanTopo paired difference",
+      "plan_sha256": "4829fabdf4204ad39596f8408867215043db8cf59cd85327a8366bb9c9c7fac8",
+      "metrics": {
+        "fid": {
+          "point_estimate": 0.07079524202545683,
+          "ci95": [
+            0.07534300796225785,
+            0.09969280873180028
+          ]
+        },
+        "r1": {
+          "point_estimate": 0.5866379310344828,
+          "ci95": [
+            0.5759612151653084,
+            0.597138043671092
+          ]
+        },
+        "r2": {
+          "point_estimate": 0.7732758620689655,
+          "ci95": [
+            0.7630837426315006,
+            0.7838522462814195
+          ]
+        },
+        "r3": {
+          "point_estimate": 0.856537356321839,
+          "ci95": [
+            0.8462568423734704,
+            0.8667083616309829
+          ]
+        },
+        "matching": {
+          "point_estimate": 2.6493808066493822,
+          "ci95": [
+            2.618479894407184,
+            2.681188995209833
+          ]
+        }
+      }
+    },
+    {
+      "dataset": "kit-ml",
+      "method": "motionhiflow",
+      "repeats": 3,
+      "bootstrap_replicates": 10000,
+      "interval_type": "two-level percentile bootstrap, marginal for this method; not a QuanTopo paired difference",
+      "plan_sha256": "7197cd2986e1002c9c01f641e39923ec6656a16de84749ed1e6af83a28ee9721",
+      "metrics": {
+        "fid": {
+          "point_estimate": 0.15417968986073058,
+          "ci95": [
+            0.1712313792032622,
+            0.26948891351857707
+          ]
+        },
+        "r1": {
+          "point_estimate": 0.48200757575757575,
+          "ci95": [
+            0.45785984848484845,
+            0.5056818181818182
+          ]
+        },
+        "r2": {
+          "point_estimate": 0.7163825757575758,
+          "ci95": [
+            0.6946022727272728,
+            0.7372159090909092
+          ]
+        },
+        "r3": {
+          "point_estimate": 0.8323863636363636,
+          "ci95": [
+            0.8153409090909092,
+            0.8494318181818182
+          ]
+        },
+        "matching": {
+          "point_estimate": 2.5380430828892826,
+          "ci95": [
+            2.4685894516917566,
+            2.6102573202788886
+          ]
+        }
+      }
+    }
+  ],
+  "sample_files": {
+    "humanml3d": {
+      "filename": "humanml3d_bootstrap_samples.npz",
+      "sha256": "ab5fccfddb4e71879ae9c390d357ef0c76d2a9f5ab335baea635f6e264b7e2ed",
+      "plan_sha256": "4829fabdf4204ad39596f8408867215043db8cf59cd85327a8366bb9c9c7fac8"
+    },
+    "kit-ml": {
+      "filename": "kit-ml_bootstrap_samples.npz",
+      "sha256": "def23ed2c0a9b5d1fb6a8aeaa8efc3072a1a3e83131edab35347c36a484638c2",
+      "plan_sha256": "7197cd2986e1002c9c01f641e39923ec6656a16de84749ed1e6af83a28ee9721"
+    }
+  },
+  "outer_sampling": "draw 3 repeat indices with replacement; equally average their metrics",
+  "inner_sampling": "within each outer draw, independently resample original exact motion_id groups; all records/captions of the drawn ID stay together",
+  "fid": "recompute weighted mean and unbiased covariance of generated and GT embeddings in float64 for every draw; symmetric PSD square root formulation",
+  "retrieval": "bootstrap fixed-candidate per-record hits and matching distances; do not redefine retrieval candidates",
+  "pairing": "shared outer and inner draws across available methods",
+  "interval": "2.5/97.5 percentiles of the 10000 two-level draws"
+}

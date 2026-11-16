@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "method": "MotionHiFlow",
+  "records": 4640,
+  "seeds": [
+    41002
+  ],
+  "outputs": 4640,
+  "time_steps": 12,
+  "cond_scale": 4.5,
+  "records_sha256": "a7dd20a8921924e8b1920d5d9579429e7a64888d06af39c2c3df9d1fa35de906",
+  "flow_checkpoint_sha256": "05af680153a26c0da511915956b554a41f6d3f1b9a8c865570045677d18a5da9",
+  "vae_checkpoint_sha256": "2c0ce87bccc03e905f57209cdf44fa0be1a8dbd32fa34e56aac1164423ef5bba",
+  "scope": "corrected_baseline_unified_reevaluation"
+}

@@ -1,0 +1,31 @@
+Caption_01
+Paper location: Figure 1(a)
+Prompt: A person walks forward, turns around, then raises both arms.
+
+Caption_02
+Paper location: Figure 1(b) and Figure 4, row 3
+Prompt: a man walks forward for a short time, turns slightly to the right to meet back at his starting point then continues forward for a short time and turns left heading back to starting point to create a figure 8.
+
+Caption_03
+Paper location: Figure 4, row 1
+Prompt: a person jumps to the left then jumps to the right then they try to do a double jump but stumbles backwards after regaining their composure starts walking back to starting position.
+
+Caption_04
+Paper location: Figure 4, row 2
+Prompt: a man hops on his right leg five times, makes a small jump, then steps forward into a strong push with both hands. he then returns to the starting position.
+
+Caption_05
+Paper location: Figure S4, row 1
+Prompt: person steps forward and block with the right arm. they turn counterclockwise 270 degrees and step forward to punch with the right arm. then they turn clockwise 280 degrees and punch with the left arm. then they turn counterclockwise 90 degrees and punch three times while walking forward
+
+Caption_06
+Paper location: Figure 4, row 4
+Prompt: a person jogs downwards towards the right hand side, then turns around and jogs a long counterclockwise arc to the left and then jogs a clockwise arc to the right side.
+
+Caption_07
+Paper location: Figure S4, row 2
+Prompt: a person runs to their left, then right, then left again, and finally walk back to their starting position.
+
+Caption_08
+Paper location: Figure S4, row 3
+Prompt: person steps to the right two steps then steps to the left two steps then steps back to where he started.
