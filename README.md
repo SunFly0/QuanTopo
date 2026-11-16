@@ -1,15 +1,15 @@
 # QuanTopo materials
 
-[Download all materials as one ZIP](https://anonymous.4open.science/api/repo/QuanTopo-1821/zip)
+[Download the four complete ZIP archives](https://quantopo-materials.burblingbard8.chatgpt.site/)
 
-The ZIP download contains the following four material groups. The original complete archive names are listed for reference:
+Download each complete archive using the links below. Each ZIP can be extracted independently; no split-file assembly is required.
 
 | Archive | Contents |
 |---|---|
-| `Figure_videos.zip` | 32 figure-example videos and 180 QuanTopo-labelled composite clips |
-| `Composite180.zip` | 900 composite comparison videos, captions, event annotations and scoring |
-| `S3_baselines.zip` | Baseline evaluation records, embeddings and statistical scripts |
-| `QuanTopo_code.zip` | Implementation and runtime configuration |
+| [Figure_videos.zip](https://quantopo-materials.burblingbard8.chatgpt.site/downloads/Figure_videos.zip) | 32 figure-example videos and 180 QuanTopo-labelled composite clips |
+| [Composite180.zip](https://quantopo-materials.burblingbard8.chatgpt.site/downloads/Composite180.zip) | 900 composite comparison videos, captions, event annotations and scoring |
+| [S3_baselines.zip](https://quantopo-materials.burblingbard8.chatgpt.site/downloads/S3_baselines.zip) | Baseline evaluation records, embeddings and statistical scripts |
+| [QuanTopo_code.zip](https://quantopo-materials.burblingbard8.chatgpt.site/downloads/QuanTopo_code.zip) | Implementation and runtime configuration |
 
 Browse the same materials through the repository-local links below:
 
