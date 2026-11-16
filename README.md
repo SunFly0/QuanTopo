@@ -7,7 +7,7 @@
 | `Figure_videos.zip` | 32 figure-example videos plus all 180 QuanTopo-labelled composite clips, with captions; 212 videos for the full-video request |
 | `Composite180.zip` | 180 captions × five methods: 900 videos, event annotations and scoring scripts |
 | `S3_baselines.zip` | Baseline evaluation records, embeddings and statistical scripts |
-| `QuanTopo_code.zip` | Implementation and source tests; also browsable in `04_code` |
+| `QuanTopo_code.zip` | Implementation; also browsable in `04_code` |
 
 Data provenance: the event annotations are target-fitted examples rather than
 independent human ratings. QuanTopo-labelled videos include external-model
