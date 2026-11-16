@@ -1,31 +1,26 @@
 # QuanTopo materials
 
-[Download the complete numbered archive](https://github.com/SunFly0/QuanTopo/releases)
+[Open the downloads](https://github.com/SunFly0/QuanTopo/releases)
 
-Inside the complete archive:
-
-| Directory | Contents |
+| Download | Contents |
 |---|---|
-| `01_paper` | Current manuscript PDF, TeX and referenced figures |
-| `02_figure_videos` | 32 figure-example videos and captions |
-| `03_composite180` | 180 captions, five methods, 900 videos, annotations and scoring |
-| `04_baseline_evaluation` | S3 baseline evaluation records, embeddings and statistics |
-| `05_code` | Model code and PSD/PCA numerical and checkpoint checks |
-| `06_rebuttal` | English reviewer responses |
+| `Figure_videos.zip` | 32 figure-example videos plus all 180 QuanTopo-labelled composite clips, with captions; 212 videos for the full-video request |
+| `Composite180.zip` | 180 captions × five methods: 900 videos, event annotations and scoring scripts |
+| `S3_baselines.zip` | Baseline evaluation records, embeddings and statistical scripts |
+| `QuanTopo_code.zip` | Implementation and source tests; also browsable in `05_code` |
 
-The archive contains the complete files, including videos, evaluation runs and
-large arrays. The repository tree provides the implementation and provenance for browsing. See `metadata.json` for data provenance.
+Data provenance: the event annotations are target-fitted examples rather than
+independent human ratings. QuanTopo-labelled videos include external-model
+previews or edited illustrations; ActionPlan clips were generated from its
+official checkpoint.
 
-After extracting the archive, from `03_composite180`, run:
+After extracting `Figure_videos.zip`, the videos are grouped under:
 
-```bash
-python score.py
-python paired_score.py
+```text
+02_figure_videos/
+  figure_examples/          # eight caption examples, four methods each
+  composite180_quantopo/    # one clip per composite caption
 ```
 
-For the model code and its PSD/PCA checks:
-
-```bash
-cd 05_code
-PYTHONPATH=src python -m unittest discover -s tests -v
-```
+After extracting `Composite180.zip`, run `score.py` and `paired_score.py` from
+`03_composite180` to calculate its event metrics.

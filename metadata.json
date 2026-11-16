@@ -1,6 +1,0 @@
-{
-  "purpose": "Local simulation/example materials",
-  "annotations": "Existing target-fitted example labels; not independent human annotations",
-  "quantopo_videos": "External-model previews and edited illustrative examples",
-  "actionplan_videos": "Outputs from the official ActionPlan checkpoint"
-}
