@@ -6,7 +6,7 @@ Download each complete archive using the links below. Each ZIP can be extracted 
 
 | Archive | Contents |
 |---|---|
-| [Figure_videos.zip](https://quantopo-materials.burblingbard8.chatgpt.site/downloads/Figure_videos.zip) | 32 figure-example videos and 180 QuanTopo-labelled composite clips |
+| [Figure_videos.zip](https://quantopo-materials.burblingbard8.chatgpt.site/downloads/Figure_videos.zip) | 32 figure-example videos and 180 QuanTopo composite clips |
 | [Composite180.zip](https://quantopo-materials.burblingbard8.chatgpt.site/downloads/Composite180.zip) | 900 composite comparison videos, captions, event annotations and scoring |
 | [S3_baselines.zip](https://quantopo-materials.burblingbard8.chatgpt.site/downloads/S3_baselines.zip) | Baseline evaluation records, embeddings and statistical scripts |
 | [QuanTopo_code.zip](https://quantopo-materials.burblingbard8.chatgpt.site/downloads/QuanTopo_code.zip) | Implementation and runtime configuration |
