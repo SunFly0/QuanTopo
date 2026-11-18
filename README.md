@@ -16,7 +16,7 @@ Browse the same materials through the repository-local links below:
 | Materials | Files |
 |---|---|
 | Figure examples | [Eight captions, four methods each](01_figure_videos/figure_examples/) |
-| Composite clips labelled QuanTopo | [180 captions and videos](01_figure_videos/composite180_quantopo/) |
+| QuanTopo Composite clips | [180 captions and videos](01_figure_videos/composite180_quantopo/) |
 | Full composite comparison | [180 captions × five methods](02_composite180/videos/) |
 | Composite evaluation | [Captions](02_composite180/composite180.csv), [event DAGs](02_composite180/events_dag.json), [annotations](02_composite180/annotations.json), [scoring script](02_composite180/score.py), [results](02_composite180/results/) |
 | Baseline reevaluation | [Fixed records](03_baseline_evaluation/fixed_records/), [runs](03_baseline_evaluation/runs/), [embeddings](03_baseline_evaluation/shared_embeddings/), [statistics](03_baseline_evaluation/statistics/), [results](03_baseline_evaluation/results/) |
