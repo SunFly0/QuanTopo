@@ -1,4 +1,4 @@
-# QuanTopo materials
+# materials
 
 [Download the four complete ZIP archives](https://quantopo-materials.burblingbard8.chatgpt.site/)
 
