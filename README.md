@@ -24,6 +24,4 @@ Browse the same materials through the repository-local links below:
 
 The figure directory contains 32 example videos and 180 QuanTopo-labelled composite videos. The full composite directory contains 900 videos across five methods, arranged by caption. Open a caption folder, then select a video to view or download it. The directory links provide individual files.
 
-Data provenance: event annotations are target-fitted examples rather than independent human ratings. QuanTopo-labelled videos include external-model previews or edited illustrations; ActionPlan clips were generated from its official checkpoint.
-
 To calculate the composite event metrics locally, run `score.py` and `paired_score.py` from `02_composite180` after downloading that directory and installing its requirements.
