@@ -22,6 +22,6 @@ Browse the same materials through the repository-local links below:
 | Baseline reevaluation | [Fixed records](03_baseline_evaluation/fixed_records/), [runs](03_baseline_evaluation/runs/), [embeddings](03_baseline_evaluation/shared_embeddings/), [statistics](03_baseline_evaluation/statistics/), [results](03_baseline_evaluation/results/) |
 | Implementation | [Code and runtime configuration](04_code/) |
 
-The figure directory contains 32 example videos and 180 QuanTopo-labelled composite videos. The full composite directory contains 900 videos across five methods, arranged by caption. Open a caption folder, then select a video to view or download it. The directory links provide individual files.
+The figure directory contains 32 example videos and 180 QuanTopo composite videos. The full composite directory contains 900 videos across five methods, arranged by caption. Open a caption folder, then select a video to view or download it. The directory links provide individual files.
 
 To calculate the composite event metrics locally, run `score.py` and `paired_score.py` from `02_composite180` after downloading that directory and installing its requirements.
